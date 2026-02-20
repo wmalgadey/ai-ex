@@ -1,0 +1,1 @@
+https://chatgpt.com/g/g-pajO1fBss-scrum-sage-zen-edition
