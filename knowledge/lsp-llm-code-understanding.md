@@ -97,6 +97,71 @@ ctags -R --output-format=json .
 
 Primitiver als LSP, aber oft ausreichend für Navigation.
 
+## LSP für Shell Scripts
+
+Ja, gibt es: **bash-language-server** (`bash-lsp/bash-language-server`)
+
+- Basiert auf Tree-sitter (Parser) + shellcheck (Linter) + shfmt (Formatter)
+- Features: Jump to Declaration, Find References, Rename Symbol, Code Completion, Diagnostics, Hover Docs
+- Installation: `npm i -g bash-language-server`
+- shellcheck separat installieren → wird automatisch als Linter eingebunden
+
+```bash
+npm i -g bash-language-server
+# shellcheck für Linting (empfohlen)
+apt install shellcheck  # oder brew install shellcheck
+```
+
+VS Code: Extension "Bash IDE" (`mads-hartmann.bash-ide-vscode`)
+
+Via LSP-MCP-Bridge kann Claude Code dann auch bei Shell-Scripts:
+- Referenzen auf Funktionen finden
+- Diagnostics (shellcheck-Fehler) direkt abfragen
+- Symbole im Workspace suchen
+
+## Keel: Architektur-Enforcement für AI-Agents
+
+**keel.engineer** löst ein anderes, komplementäres Problem zu LSP.
+
+### LSP vs. Keel — der Unterschied
+
+| | LSP | Keel |
+|--|-----|------|
+| **Fragt** | "Was ist das hier?" | "Was bricht, wenn ich das ändere?" |
+| **Ebene** | Symbol / Typ / File | Architektur / Dependency Graph |
+| **Scope** | Einzelne Datei/Funktion | Gesamte Codebase |
+| **Output** | Typ-Infos, Definitionen | Broken callers, violated boundaries |
+
+### Was Keel macht
+
+```bash
+keel map      # Scannt alle Funktionen, Klassen, Call-Edges → .keel/graph.db
+keel compile  # Prüft Imports, Boundaries, Contracts gegen den Graph
+keel fix      # Generiert Fix-Plan mit Diffs (oder Agent wendet sie an)
+keel init     # Auto-Setup: Git Hook + Claude Code Hook-Config
+```
+
+**Das Kernproblem das Keel löst:**
+Ein LLM ändert eine Funktionssignatur — und weiß nicht, dass 50 andere Stellen davon abhängen. Keel fängt das vor dem Commit ab.
+
+### Integration mit Claude Code
+
+`keel init` auto-detects Claude Code und generiert:
+- `.keel/hooks/post-edit.sh` → läuft nach jedem Edit
+- Git pre-commit hook → blockiert bei Architekturverletzungen
+
+Unterstützte Sprachen: 4 (konkret nicht dokumentiert auf der Site, vermutlich JS/TS, Python, Go, Rust)
+
+### Keel + LSP kombiniert
+
+```
+LSP-MCP    → Claude weiß "was ist dieser Typ"
+Keel Hook  → Claude weiß "das bricht 3 Caller — hier sind die Diffs"
+CLAUDE.md  → Claude weiß "das ist unser Domain-Modell"
+```
+
+Alle drei zusammen ergeben echtes strukturelles Verständnis statt blindem Text-Matching.
+
 ## Empfehlung nach Usecase
 
 | Szenario | Empfehlung |
@@ -104,15 +169,20 @@ Primitiver als LSP, aber oft ausreichend für Navigation.
 | Neues Projekt onboarden | CLAUDE.md + `/init` für auto-generierte Basis |
 | .NET/C# Projekt | LSP-MCP Bridge mit OmniSharp oder C# Dev Kit |
 | Rust-Projekt | `cursor-rust-tools` (rust-analyzer + Cargo) |
-| Große Codebase, viele Abstractions | LSP-MCP + CLAUDE.md für Domain-spezifisches Wissen |
+| Shell Scripts | bash-language-server + shellcheck via LSP-MCP |
+| Große Codebase, viele Abstractions | LSP-MCP + Keel + CLAUDE.md |
+| Architektur-Enforcement | Keel (keel init reicht für den Start) |
 | Quick-and-dirty | Auto Memory + gute CLAUDE.md reichen oft |
 
 ## Links
 
 - [LSP Spec](https://microsoft.github.io/language-server-protocol/)
 - [MCP Spec](https://modelcontextprotocol.io/introduction)
+- [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+- [Keel](https://keel.engineer)
+- [jonrad/lsp-mcp](https://github.com/jonrad/lsp-mcp)
 - [Claude Code Memory Docs](https://code.claude.com/docs/en/memory)
 - [Claude Code MCP Docs](https://code.claude.com/docs/en/mcp)
 
 ---
-*Erstellt: 2026-03-03*
+*Erstellt: 2026-03-03 | Aktualisiert: 2026-03-03*
