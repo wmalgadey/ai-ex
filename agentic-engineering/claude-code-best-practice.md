@@ -6,6 +6,8 @@
 
 _Generiert anhand von [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice), 2026-03-01._
 
+Shanraisshan dokumentiert in diesem Repo Patterns für Claude Code — von CLAUDE.md-Limits über Subagent-Komposition bis zu Utility-Empfehlungen. Interessant als Referenz für die Feature-Übersicht und die Orchestrierungs-Hierarchie (Command → Agent → Skill).
+
 ## Feature Map
 
 | Feature | Location | Description |
