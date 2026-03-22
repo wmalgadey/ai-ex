@@ -3,28 +3,17 @@
 **URL:** https://www.lesswrong.com/posts/ZffDM6MkHDkXb9Si6/llm-daydreaming-gwern-net
 **Gespeichert:** 2026-03-22
 
-## Kernthese
+Gwern argumentiert, dass LLMs keine genuinen neuen Erkenntnisse produzieren, weil zwei Mechanismen fehlen:
 
-Warum erzeugen LLMs keine wirklich neuen Erkenntnisse — und wie könnte man das ändern?
+**Frozen Learning** — nach dem Training statisch, keine Selbstaktualisierung während des Betriebs.
 
-## Zwei grundlegende Probleme
+**Fehlendes "Daydreaming"** — Menschen verbinden im Leerlauf (Default Mode Network) scheinbar unrelated Konzepte. LLMs haben keinen solchen Hintergrundprozess.
 
-**1. Frozen Learning ("Amnesia")**
-LLMs lernen nicht während des Betriebs. Nach dem Training sind sie statisch — keine Selbstaktualisierung, kein Einarbeiten neuer Entdeckungen.
+Vorgeschlagener Ansatz: Daydreaming-Loop — zufällige Begriffspaare abrufen → Verbindungen explorieren → Ergebnis auf Neuheit bewerten.
 
-**2. Fehlendes "Daydreaming"**
-Menschen verarbeiten Informationen kontinuierlich über das Default Mode Network (DMN) — auch im Leerlauf. Dort entstehen unerwartete Querverbindungen zwischen scheinbar unrelated Konzepten. Dieser Mechanismus fehlt in aktuellen KI-Systemen vollständig.
+Geschätzte Kosten: ~20× teurer als normales Inference. Implikation: Fortschritt bei genuinen Insights konzentriert sich bei Top-Labs.
 
-## Vorgeschlagene Lösung: Daydreaming Loop
-
-Zufällige Begriffspaare abrufen → Verbindungen explorieren (guided prompts) → Ergebnis auf Neuheit und Nützlichkeit bewerten. Simuliert das, was im menschlichen Gehirn spontan passiert.
-
-## Kosten & Implikationen
-
-- Schätzung: ~20× teurer als normales Inference
-- Nur für gut finanzierte Organisationen wirtschaftlich
-- Ergebnis: Fortschritt bei genuinen Insights konzentriert sich bei Top-Labs — nicht demokratisierbar
-- Externe Governance von KI-Entwicklung wird dadurch schwieriger
+_Generiert anhand von [gwern.net / LessWrong](https://www.lesswrong.com/posts/ZffDM6MkHDkXb9Si6/llm-daydreaming-gwern-net), 2026-03-22._
 
 ## Tags
 

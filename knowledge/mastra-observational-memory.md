@@ -52,10 +52,6 @@ Unterstützte Storage-Adapter: PostgreSQL, LibSQL, MongoDB.
 
 Observations verlinken auf die Quell-Nachrichten. Agents können via `recall`-Tool auf den genauen Wortlaut zurückgreifen wenn die Zusammenfassung zu viel Detail verliert.
 
-## Relevanz
-
-Interessant als Referenz für NanoClaw/eigene Projekte: Das dreistufige Kompressionsmodell (Messages → Observations → Reflections) ist ein durchdachter Ansatz für Long-Term Memory der über einfaches CLAUDE.md-Schreiben hinausgeht.
-
 ## Tags
 
 #memory #llm #mastra #agents #long-context #observational-memory #compression

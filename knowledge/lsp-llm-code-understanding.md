@@ -160,8 +160,6 @@ Keel Hook  → Claude weiß "das bricht 3 Caller — hier sind die Diffs"
 CLAUDE.md  → Claude weiß "das ist unser Domain-Modell"
 ```
 
-Alle drei zusammen ergeben echtes strukturelles Verständnis statt blindem Text-Matching.
-
 ## GitLab Knowledge Graph
 
 **Beta-Feature** des GitLab Duo Agent Platform. In Rust geschrieben, open source.  
@@ -197,9 +195,9 @@ gkg query    # Graph abfragen
 | **Designed für** | IDE/LLM Semantik | AI Agent Safety | AI Agent Context / RAG |
 | **Hosting** | lokal | lokal | lokal + GitLab.com |
 
-**Fazit:** GitLab KG = Keel ohne Enforcement-Teil, dafür stärker auf RAG ausgerichtet. Sinnvoll wenn man im GitLab/Duo-Ökosystem bleibt und MCP-native Abfragen will.
+GitLab KG = Keel ohne Enforcement-Teil, stärker auf RAG ausgerichtet.
 
-### Vollständiger Stack
+### Stack
 
 ```
 LSP-MCP              → Symbol-Semantik (Typen, Definitionen, Referenzen)
@@ -208,20 +206,6 @@ GitLab Knowledge Graph → Repository-Graph für RAG und Context-Queries
 CLAUDE.md            → Domain-spezifisches Wissen (manuell, veraltet nie)
 Auto Memory          → Claude's eigene gelernte Patterns
 ```
-
-## Empfehlung nach Usecase
-
-| Szenario | Empfehlung |
-|----------|------------|
-| Neues Projekt onboarden | CLAUDE.md + `/init` für auto-generierte Basis |
-| .NET/C# Projekt | LSP-MCP Bridge mit OmniSharp oder C# Dev Kit |
-| Rust-Projekt | `cursor-rust-tools` (rust-analyzer + Cargo) |
-| Shell Scripts | bash-language-server + shellcheck via LSP-MCP |
-| Große Codebase, viele Abstractions | LSP-MCP + Keel + CLAUDE.md |
-| Architektur-Enforcement | Keel (keel init reicht für den Start) |
-| GitLab-Projekt, RAG-Fokus | GitLab Knowledge Graph + MCP |
-| Maximaler Kontext | LSP-MCP + Keel + GitLab KG + CLAUDE.md |
-| Quick-and-dirty | Auto Memory + gute CLAUDE.md reichen oft |
 
 ## Links
 

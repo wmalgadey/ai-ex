@@ -68,10 +68,6 @@ Ein Tech Pack ist ein Git-Repository mit einer `techpack.yaml`. Unterstützte Ko
 
 Swift 6, strict concurrency. Zwei externe Dependencies: `swift-argument-parser` (Apple CLI-Framework), `Yams` (YAML-Parsing). Aktives Projekt mit 14 Releases seit Ende Februar 2026.
 
-## Vergleich zu NanoClaw Skills
-
-NanoClaw-Skills sind Branch-basiert und Code-Merge-orientiert — man zieht sich einen Branch rein und hat den Code. `mcs` ist deklarativ und betriebssystem-agnostisch zur Konfiguration: kein Code, nur YAML + Markdown. Die Zielgruppen überschneiden sich (Reproduzierbarkeit von Claude-Setups), der Ansatz ist grundlegend verschieden.
-
 ## Tags
 
 #claude-code #cli #devtools #macos #swift #mcp #configuration #tech-packs

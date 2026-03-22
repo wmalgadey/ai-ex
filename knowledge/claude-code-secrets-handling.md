@@ -127,43 +127,6 @@ CLAUDE.local.md
 
 `CLAUDE.local.md` wird von Claude Code automatisch geladen und gitignored — gut für lokale Anweisungen die Secrets-Paths erklären, ohne die Secrets selbst zu enthalten.
 
-## Empfohlener Setup (Defense in Depth)
-
-```json
-// .claude/settings.json (committen)
-{
-  "permissions": {
-    "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)",
-      "Read(./secrets/**)",
-      "Read(./.aws/**)"
-    ]
-  }
-}
-```
-
-```bash
-# .envrc (direnv, gitignored)
-export DATABASE_URL="..."
-export API_KEY="..."
-```
-
-```
-# .gitignore
-.env
-.env.*
-secrets/
-*.pem
-*.key
-```
-
-**Checkliste:**
-- [ ] `permissions.deny` für alle Secret-Dateien in `.claude/settings.json`
-- [ ] Secret-Dateien in `.gitignore`
-- [ ] Secrets über Shell/direnv/Secret Manager injizieren, nicht per File
-- [ ] Bei CI/CD: Managed Settings oder `--dangerously-skip-permissions` vermeiden
-
 ## Was Claude Code trotzdem noch sehen kann
 
 `permissions.deny` schützt vor Claude's File-Tools. Aber:

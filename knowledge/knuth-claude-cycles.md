@@ -1,4 +1,4 @@
-# Don Knuth: "Claude's Cycles" — Ein Wendepunkt?
+# Don Knuth: "Claude's Cycles"
 
 **Datum:** 28. Februar 2026 (revised 4. März 2026)  
 **Autor:** Don Knuth, Stanford  
@@ -7,11 +7,9 @@
 
 ---
 
-## Worum geht's?
+Don Knuth (Autor von *The Art of Computer Programming*) veröffentlichte am 28. Februar 2026 eine Note mit dem Titel *"Claude's Cycles"*:
 
-Don Knuth (88, Autor von *The Art of Computer Programming*, eine der einflussreichsten Figuren der Informatik) hat bisher GenAI eher skeptisch beurteilt. Am 28. Februar 2026 veröffentlichte er eine kurze Note mit dem Titel *"Claude's Cycles"* — und der Ton ist ein komplett anderer.
-
-**Sein Einstieg:** "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6."
+> "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6."
 
 ---
 
@@ -72,16 +70,6 @@ Knuth formalisiert Claudes Ansatz als *"Claude-like decomposition"*: Permutation
 Er schreibt auch: "It seems that I'll have to revise my opinions about 'generative AI' one of these days."
 
 Und am Ende: "Hats off to Claude!"
-
----
-
-## Warum das relevant ist
-
-- **Knuth ist nicht irgendwer.** Er hat Jahrzehnte lang skeptisch auf AI-Hype reagiert. Sein Meinungsumschwung hat Gewicht.
-- **Das ist echte Mathematik**, kein Coding-Task. Claude hat selbstständig strukturierte Exploration betrieben, Sackgassen erkannt, Hypothesen geformt und schließlich eine beweisbare Konstruktion gefunden.
-- **Kombination Mensch + AI:** Stappers coached Claude (strukturiertes Dokumentieren), Knuth formalisierte das Ergebnis. Das ist kollaborative Mathematik.
-- **Modell:** Claude Opus 4.6 (Hybrid Reasoning, released ~Anfang Februar 2026)
-- **Shift in der Debatte:** Barbara Lampl bringt es auf den Punkt — die Frage ist nicht mehr "Was kann AI?", sondern "Wie reliable ist AI als Werkzeug für echte Forschung?"
 
 ---
 

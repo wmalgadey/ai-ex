@@ -43,8 +43,6 @@ Für alle Sessions automatisch aktivieren: in Claude Code `/config` → "Enable 
 
 ## Security
 
-Das ist der interessante Teil:
-
 **Kein eingehender Port wird geöffnet.** Die lokale Claude Code Session macht ausschließlich **outbound HTTPS Requests** an die Anthropic API. Kein Port-Forwarding, kein ngrok, kein offener Server auf dem Rechner.
 
 **Wie es funktioniert:**

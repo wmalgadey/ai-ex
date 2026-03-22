@@ -34,10 +34,3 @@
 - Perplexity API
 - Frameworks: Transformers, SentenceTransformers, ONNX
 
-## Use Case Einschätzung
-
-Interessant für:
-- **Lokale RAG-Pipelines** (Homelab) — kleines 0.6B-Modell sehr effizient
-- **Multilingual Retrieval** (30 Sprachen)
-- **Web-Scale Search** — speziell für große Dokumentkorpora optimiert
-- Kontextuelles Modell für Wikis/Docs wo Passagen mehrdeutig sein können

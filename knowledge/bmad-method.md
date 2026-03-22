@@ -45,9 +45,5 @@ npx bmad-method install
 - Discord: https://discord.gg/gk8jAdXWmj
 - YouTube: https://www.youtube.com/@BMadCode
 
-## Warum interessant?
-
-Passt gut zu Wolfgang's ENFP-Stil: strukturiert genug für echte Projekte, aber kollaborativ und agil. Könnte interessant sein für AI-assisted Platform Engineering oder Side Projects mit strukturiertem Vorgehen.
-
 ---
 *Gespeichert: 2026-02-25*

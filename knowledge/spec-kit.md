@@ -74,11 +74,5 @@ Claude Code ✅, Cursor ✅, GitHub Copilot ✅, Gemini CLI ✅, Codex CLI ✅, 
 - Python 3.11+, uv, Git
 - Unterstützter AI Agent (Claude Code, Cursor, etc.)
 
-## Warum interessant?
-
-Perfekt für Wolfgangs Kombination aus Coding-Erfahrung + AI-Nutzung. Statt "Vibe Coding" gibt es strukturierte Spezifikationen die direkt in Implementierungen überführt werden — sehr ähnlich zu Clean Code / Pragmatic Programmer Philosophie. Von GitHub selbst, also production-ready gedacht.
-
-Besonders interessant für Platform Engineering Projekte wo Anforderungen klar dokumentiert sein müssen.
-
 ---
 *Gespeichert: 2026-02-25*
