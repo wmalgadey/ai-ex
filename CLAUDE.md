@@ -31,13 +31,7 @@ _Generiert anhand von [Quelle/Konversation], [Datum]._
 knowledge/            — Werkzeuge, Konzepte, Recherche (externe Quellen)
 journal/              — Persönliche Erfahrungen, Entscheidungen, Journey
 agentic-engineering/  — Konzepte und Praxis rund um agentic software development
-  concepts/           — Einzelne Konzepte: evolution, guardrails, evals, contracts
-  templates/          — Wiederverwendbare Vorlagen (AGENTS.md, eval-checklist)
-  resources/          — Kuratierte externe Links
 skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
-  elephant-slices/    — User Story Writer und verwandte Techniken
-  k8s-operator-dev/   — Kubernetes Operator Entwicklung mit Claude
-  ralph-wiggum/       — Eigener Skill/Agent (details in subfolder)
 ```
 
 ## Frontmatter (optional, aber hilfreich)
