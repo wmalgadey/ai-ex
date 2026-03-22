@@ -4,6 +4,8 @@
 **Docs:** https://github.github.io/spec-kit/
 **Von:** GitHub (official)
 
+_Rekonstruiert aus [github/spec-kit Dokumentation](https://github.github.io/spec-kit/), 2026-02-25._
+
 ## Was ist es?
 
 **Spec-Driven Development (SDD)** — Ein Open-Source Toolkit das Spezifikationen in den Mittelpunkt stellt statt Code.
@@ -76,3 +78,5 @@ Claude Code ✅, Cursor ✅, GitHub Copilot ✅, Gemini CLI ✅, Codex CLI ✅, 
 
 ---
 *Gespeichert: 2026-02-25*
+
+#spec-driven-development #github #claude-code #workflow #open-source

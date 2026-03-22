@@ -22,3 +22,5 @@ Text-to-image Modell via Google Gemini 3.1 Flash Image auf fal.ai.
 - Text-Rendering
 - Character Consistency (bis 5 Personen)
 - Output: 1K / 2K / 4K
+
+#image-generation #fal-ai #gemini #text-to-image

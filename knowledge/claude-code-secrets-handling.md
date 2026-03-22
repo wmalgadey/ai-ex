@@ -1,5 +1,7 @@
 # Secrets Handling mit Claude Code
 
+_Generiert anhand von [Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code) und Best Practices, 2026-03-03._
+
 ## Das Problem
 
 Claude Code liest standardmäßig alle Dateien im Arbeitsverzeichnis — inklusive `.env`, `.env.local`, `config/credentials.json` etc.  
@@ -249,3 +251,5 @@ sops -d --extract '["API_KEY"]' .env.sops.yaml
 
 ---
 *Erstellt: 2026-03-03 | Aktualisiert: 2026-03-03*
+
+#claude-code #secrets #security #sops #permissions

@@ -4,6 +4,8 @@
 **Datum:** 2026-02-28
 **Lizenz:** MIT
 
+_Rekonstruiert aus [The Decoder](https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/), 2026-02-28._
+
 ## Modelle
 
 - `pplx-embed-v1` — klassisches dichtes Text-Retrieval
@@ -34,3 +36,4 @@
 - Perplexity API
 - Frameworks: Transformers, SentenceTransformers, ONNX
 
+#embeddings #perplexity #rag #open-source #llm

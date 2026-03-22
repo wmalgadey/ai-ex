@@ -4,11 +4,13 @@
 
 Source: https://docs.anthropic.com/en/docs/claude-code/remote-control
 
+_Rekonstruiert aus [Anthropic Docs: Remote Control](https://docs.anthropic.com/en/docs/claude-code/remote-control), 2026-03-07._
+
 ## Was ist das?
 
 Remote Control verbindet claude.ai/code oder die Claude Mobile App (iOS/Android) mit einer lokal laufenden Claude Code Session. Die Session läuft dabei **vollständig auf deinem Rechner** — Phone/Browser ist nur ein Fenster in die lokale Session.
 
-Typischer Workflow (wie viral auf Twitter beschrieben):
+Typischer Workflow:
 1. Agent 1 erstellt Spec/Blueprint + Todo-Liste
 2. Agent 2 bekommt den Blueprint und fängt an zu bauen
 3. `claude remote-control` starten → QR-Code scannen → auf den Balkon gehen
@@ -92,3 +94,5 @@ claude remote-control --no-sandbox          # Sandboxing explizit deaktivieren
 ---
 
 *Hinzugefügt: 2026-03-07*
+
+#claude-code #remote-control #mobile #security

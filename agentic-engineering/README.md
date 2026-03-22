@@ -15,7 +15,8 @@ Each step accelerates. Each step produces more changes, more features, more bugs
 
 ## What Agentic Engineering Requires
 
-Everything Scrum wished it had is now mandatory:
+> "Everything Scrum wished it had is now mandatory."
+> — Florian Burka
 
 **Baseline (non-negotiable):**
 - CI/CD pipeline
@@ -55,3 +56,5 @@ agentic-engineering/
 └── resources/
     └── links.md          ← Curated external resources
 ```
+
+#agentic-engineering #software-development #ci-cd #evals #guardrails

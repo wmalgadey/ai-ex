@@ -31,3 +31,5 @@ This agent is typically used in a workflow with:
 ## Agent Definition
 
 The full agent definition is in `.claude/agents/user-story-writer.md`
+
+#claude-code #agents #user-stories #elephant-carpaccio #atdd

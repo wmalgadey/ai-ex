@@ -42,3 +42,5 @@ Nicht die KI als Code-Generator nutzen, sondern als erfahrenen Kollegen — für
 *Kontext: Legacy-Code, große verteilte Codebasis, externe Systeme.*
 
 _Generiert anhand von [LinkedIn Post Artur Kuksin](https://www.linkedin.com/feed/update/urn:li:activity:7431969746625118209), 2026-02-28._
+
+#bugfixing #ai-workflow #prompt-engineering #code-review #legacy-code

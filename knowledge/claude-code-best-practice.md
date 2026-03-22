@@ -1,8 +1,10 @@
 # Claude Code Best Practice
 
-**Source:** https://github.com/shanraisshan/claude-code-best-practice  
-**Author:** Shan Raisshan (shanraisshan)  
+**Source:** https://github.com/shanraisshan/claude-code-best-practice
+**Author:** Shan Raisshan (shanraisshan)
 **Tagline:** "practice makes claude perfect"
+
+_Generiert anhand von [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice), 2026-03-01._
 
 ## Feature Map
 
@@ -85,3 +87,5 @@ claude /weather-orchestrator
 - Ralph Wiggum plugin: https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
 - claude-code-voice-hooks: https://github.com/shanraisshan/claude-code-voice-hooks
 - claude-code-status-line: https://github.com/shanraisshan/claude-code-status-line
+
+#claude-code #best-practices #agents #mcp #workflows

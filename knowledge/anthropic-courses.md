@@ -14,3 +14,5 @@ Anthropics offizielle Kursplattform.
 - **Introduction to agent skills** — Skills in Claude Code bauen, konfigurieren, teilen
 - **AI Fluency** — Framework & Foundations, für Educators, Students, Nonprofits
 - **Claude with Amazon Bedrock** / **Google Cloud Vertex AI**
+
+#anthropic #courses #mcp #claude-code #api

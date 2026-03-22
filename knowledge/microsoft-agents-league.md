@@ -4,7 +4,7 @@
 **Gespeichert:** 2026-02-28
 
 > 2-Wochen AI Developer Challenge (16.–27. Feb 2026) — Live Coding Battles, Community Challenges, GitHub-Submissions.
-> ⚠️ Wettbewerb ist beendet, aber Ressourcen (Starter Kits, Videos) sind weiterhin verfügbar.
+> Wettbewerb ist beendet, aber Ressourcen (Starter Kits, Videos) sind weiterhin verfügbar.
 
 ---
 
@@ -12,17 +12,17 @@
 
 | Track | Tool | Starter Kit |
 |-------|------|-------------|
-| 🎨 Creative Apps | GitHub Copilot | https://github.com/microsoft/agentsleague/blob/main/starter-kits/1-creative-apps |
-| 🧠 Reasoning Agents | Microsoft Foundry / Copilot CLI SDK | https://github.com/microsoft/agentsleague/blob/main/starter-kits/2-reasoning-agents |
-| 💼 Enterprise Agents | M365 Agents Toolkit | https://github.com/microsoft/agentsleague/blob/main/starter-kits/3-enterprise-agents |
+| Creative Apps | GitHub Copilot | https://github.com/microsoft/agentsleague/blob/main/starter-kits/1-creative-apps |
+| Reasoning Agents | Microsoft Foundry / Copilot CLI SDK | https://github.com/microsoft/agentsleague/blob/main/starter-kits/2-reasoning-agents |
+| Enterprise Agents | M365 Agents Toolkit | https://github.com/microsoft/agentsleague/blob/main/starter-kits/3-enterprise-agents |
 
 ---
 
 ## Videos (Live Battles — Microsoft Reactor)
 
-- 🎨 **Creative Apps Battle** (Di 17. Feb, 9 AM PT): https://aka.ms/agentsleague/battle1
-- 🧠 **Reasoning Agents Battle** (Mi 18. Feb, 9 AM PT): https://aka.ms/agentsleague/battle2
-- 💼 **Enterprise Agents Battle** (Do 19. Feb, 9 AM PT): https://aka.ms/agentsleague/battle3
+- **Creative Apps Battle** (Di 17. Feb, 9 AM PT): https://aka.ms/agentsleague/battle1
+- **Reasoning Agents Battle** (Mi 18. Feb, 9 AM PT): https://aka.ms/agentsleague/battle2
+- **Enterprise Agents Battle** (Do 19. Feb, 9 AM PT): https://aka.ms/agentsleague/battle3
 
 Alle Replays: https://aka.ms/reactor
 
@@ -41,3 +41,5 @@ Alle Replays: https://aka.ms/reactor
 - GitHub Copilot CLI: https://github.com/features/copilot/cli/
 - GitHub Copilot CLI SDK: https://github.com/github/copilot-sdk
 - Microsoft Foundry Forum: https://aka.ms/foundry/forum
+
+#microsoft #agents #github-copilot #challenge #developer-event

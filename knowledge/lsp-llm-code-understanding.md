@@ -1,5 +1,7 @@
 # LSP + LLM: Echtes Code-Verständnis für AI-Coding-Agents
 
+_Generiert anhand von Recherche zu LSP-MCP-Projekten, 2026-03-03._
+
 ## Das Problem
 
 LLMs lesen Code wie Text — flach und ohne semantisches Verständnis. Sie wissen nicht:
@@ -220,3 +222,5 @@ Auto Memory          → Claude's eigene gelernte Patterns
 
 ---
 *Erstellt: 2026-03-03 | Aktualisiert: 2026-03-03*
+
+#lsp #mcp #claude-code #code-navigation #semantic-analysis

@@ -61,3 +61,5 @@ This is not a problem to be solved — it's the shape of the transition.
 Speed does not reduce the need for structure. It inverts the cost of missing structure. In Waterfall, missing structure meant slow, expensive failures. In Agentic, missing structure means fast, invisible failures at scale.
 
 The developers who thrive are those who build the verification harness *first*, then let the agent run.
+
+#agentic-engineering #software-development #waterfall #scrum #verification

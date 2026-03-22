@@ -4,10 +4,6 @@
 **Author:** Joshua Dell  
 **Date:** 2026-03-02
 
-## Overview
-
-Comparison of how Claude Code and GitHub Copilot map to each other across repo-level configuration — 6 layers.
-
 ## The 6 Layers
 
 ### 1. Repo Memory
@@ -52,3 +48,5 @@ Comparison of how Claude Code and GitHub Copilot map to each other across repo-l
 - Copilot CLI Plugins: https://lnkd.in/eSZSJ53T
 - Claude Code MCP: https://lnkd.in/eKBiDJxs
 - Claude Code Plugins: https://lnkd.in/eaEwCg2Z
+
+#claude-code #github-copilot #configuration #mcp #agents

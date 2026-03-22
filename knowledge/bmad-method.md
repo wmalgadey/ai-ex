@@ -47,3 +47,5 @@ npx bmad-method install
 
 ---
 *Gespeichert: 2026-02-25*
+
+#bmad #agile #ai-development #framework #agents

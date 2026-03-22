@@ -20,3 +20,4 @@ Ein Buch mit dem Untertitel *"The Spec-Driven Blueprint for Building and Monetiz
 
 Dasselbe Wissen wird gleichzeitig auf drei Arten ausgeliefert: als Buch, als KI-Tutor (WhatsApp/Telegram/Web namens "TutorClaw") und als Claude Code Plugin. Konsequent durchgezogen.
 
+#agents #framework #spec-driven #digital-ftes #panaversity

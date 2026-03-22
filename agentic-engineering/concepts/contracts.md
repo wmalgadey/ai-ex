@@ -83,3 +83,5 @@ Even a partial spec is better than none. Start with the endpoints agents will mo
 The real power: contracts don't just inform agents — they constrain them. An agent that generates code violating the OpenAPI spec gets caught immediately by the CI pipeline. Linter scores, test failures, and spec violations all become automatic signals the agent can act on.
 
 This is the "Linter und Code Health Scores werden zum automatischen Feedback-Loop direkt in den Agent zurück" principle. The agent doesn't need a human reviewer for every change — it needs a system that makes wrong outputs visible.
+
+#agentic-engineering #contracts #agents-md #openapi #feedback-loops

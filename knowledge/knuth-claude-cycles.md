@@ -63,13 +63,9 @@ Knuth formalisiert Claudes Ansatz als *"Claude-like decomposition"*: Permutation
 
 ---
 
-## Knuth's Fazit
-
 > "All in all, however, this was definitely an impressive success story."
-
-Er schreibt auch: "It seems that I'll have to revise my opinions about 'generative AI' one of these days."
-
-Und am Ende: "Hats off to Claude!"
+> "It seems that I'll have to revise my opinions about 'generative AI' one of these days."
+> "Hats off to Claude!"
 
 ---
 
@@ -78,3 +74,5 @@ Und am Ende: "Hats off to Claude!"
 - Paper (Stanford): https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf
 - Don Knuth (Wikipedia): https://de.wikipedia.org/wiki/Donald_Knuth
 - *The Art of Computer Programming*: https://www-cs-faculty.stanford.edu/~knuth/taocp.html
+
+#knuth #math #claude #research #llm-capabilities
