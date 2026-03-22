@@ -1,26 +1,20 @@
 # K8s Operator Development
 
-Claude Code Plugin für Kubernetes CRD Operator Development mit Kubebuilder und Tilt.
+**Quelle:** https://github.com/Sagart-cactus/claude-k8s-plugin
+**Gespeichert:** 2026-03-01
 
-## Links
-
-- https://github.com/Sagart-cactus/claude-k8s-plugin
+Claude Code Plugin für Kubernetes CRD Operator Development mit Kubebuilder und Tilt. Interessant wegen des integrierten Safety-Guards — blockiert `kubectl`/`helm` automatisch auf Non-Kind-Clustern.
 
 ## Features
 
-- Guided workflow für komplette K8s Operators (Kubebuilder)
+- Guided workflow für K8s Operators (Kubebuilder)
 - Tilt-basierter Fast Dev Loop mit Live-Updates
-- Safety Guards: Blockiert kubectl/helm auf Non-Kind-Clustern
+- Safety Guards gegen versehentliche Produktions-Deployments
 - Commands: `/k8s:create-operator`, `/k8s:dev`, `/k8s:verify`, `/k8s:checklist`
 - Skills: CRD Design, Webhook Patterns, RBAC, Templates
 
 ## Prerequisites
 
-- Go, Kubebuilder, kind, kubectl, Kustomize, Tilt
-- Installation via `/k8s:prereqs`
+Go, Kubebuilder, kind, kubectl, Kustomize, Tilt — Installation via `/k8s:prereqs`.
 
-## Use Cases
-
-- Platform Engineering: Custom Operators für K8s/OpenShift
-- Fast prototyping mit Tilt Dev Loop
-- Safe local development mit Kind-Clustern
+#claude-code #kubernetes #k8s #operators #kubebuilder #tilt #plugin

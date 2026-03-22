@@ -1,35 +1,22 @@
 # User Story Writer Agent
 
-An AI agent specialized in breaking down problem statements or feature requirements into granular, implementable user stories.
+**Quelle:** https://github.com/andlaf-ak/claude-code-agents/tree/main/user-story-writer
+**Gespeichert:** 2026-03-01
 
-## Purpose
+Claude Code Agent, der Problem-Statements in granulare User Stories nach dem Elephant-Carpaccio-Muster zerlegt. Erzeugt INVEST-konforme Stories mit Akzeptanzkriterien.
 
-The User Story Writer agent transforms problem analyses into small, independent, valuable, and testable user stories using techniques like Elephant Carpaccio.
+## Workflow-Position
 
-## When to Use
+```
+problem-analyst → user-story-writer → atdd-developer
+```
 
-Use this agent when:
-- You have a high-level problem statement that needs decomposition
-- You need properly structured user stories with acceptance criteria
-- You want stories small enough for iterative development
-- You're planning a feature and need INVEST-compliant stories
+## Beispiele
 
-## Examples
+`examples/tax-calculator/03-user-stories.md` — generierte User Stories aus einer Tax-Calculator-Analyse.
 
-The `examples/` folder contains:
+## Agent-Definition
 
-### tax-calculator/
-- `03-user-stories.md` - User stories generated from the tax calculator problem analysis
-
-## Related Agents
-
-This agent is typically used in a workflow with:
-1. **problem-analyst** - Analyze the problem first
-2. **user-story-writer** (this agent) - Create user stories
-3. **atdd-developer** - Implement using ATDD
-
-## Agent Definition
-
-The full agent definition is in `.claude/agents/user-story-writer.md`
+In `user-story-writer.md` (Claude Code Agent Frontmatter + Prompt).
 
 #claude-code #agents #user-stories #elephant-carpaccio #atdd
