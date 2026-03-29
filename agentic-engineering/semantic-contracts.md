@@ -1,6 +1,7 @@
 # Semantic Contracts
 
-**Quelle:** https://lnkd.in/deAn2Wnb
+**Quelle:** https://llm-coding.github.io/Semantic-Anchors/contracts
+**Via:** https://lnkd.in/deAn2Wnb (LinkedIn)
 **Gespeichert:** 2026-03-29
 
 > "Write a specification" can mean anything. A Semantic Contract makes it precise.
