@@ -24,6 +24,9 @@ Gap zwischen bestem und schlechtestem Protokoll: **44%** — bei gleichem Modell
 
 Fixe Rollen, starre Hierarchien und Master-Coordinator-Ansätze (CrewAI, AutoGen) könnten starke Modelle systematisch ausbremsen. Richtung: "Environment + Regeln" statt "Architecture as Code".
 
-_Generiert anhand von LinkedIn-Post, 2026-04-01._
+**Paper:** _Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures_
+**Autorin:** Victoria Dochkina, Moscow Institute of Physics and Technology (MIPT)
+
+_Generiert anhand von LinkedIn-Post + Paper-Abstract, 2026-04-01._
 
 #multi-agent #coordination #self-organization #orchestration #agentic-engineering #research
