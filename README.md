@@ -51,7 +51,7 @@ Schreibstil und Konventionen: siehe [CLAUDE.md](./CLAUDE.md).
 
 ## Navigation
 
-- [Knowledge](./knowledge/MOC.md)
-- [Agentic Engineering](./agentic-engineering/MOC.md)
-- [Skills & Agents](./skills-and-agent/MOC.md)
-- [Journal](./journal/MOC.md)
+- [Knowledge](./knowledge/README.md)
+- [Agentic Engineering](./agentic-engineering/README.md)
+- [Skills & Agents](./skills-and-agent/README.md)
+- [Journal](./journal/README.md)

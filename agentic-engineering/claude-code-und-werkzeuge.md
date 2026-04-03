@@ -1,0 +1,12 @@
+# Claude Code & Werkzeuge
+
+Best Practices, Konfiguration, Remote Control, Secrets, Tooling-Vergleiche.
+
+## Artikel
+
+- [Claude Code Best Practice](claude-code-best-practice.md) — Feature Map, Orchestration-Hierarchie, Workflow- und Debugging-Patterns
+- [Claude Code Remote Control](claude-code-remote-control.md) — Lokale Claude Code Session vom Phone steuern, nur outbound HTTPS, kein Port-Forwarding
+- [Secrets Handling mit Claude Code](claude-code-secrets-handling.md) — 6 Methoden: permissions.deny, Sandbox, direnv, 1Password, SOPS + age
+- [Claude Code vs. GitHub Copilot — 6 Config Layers](claudecode-vs-copilot-config-layers.md) — Vergleich der Konfigurations-Schichten beider Tools, Konvergenzpunkte
+- [mcs — Managed Claude Stack](mcs-managed-claude-stack.md) — macOS CLI für portable Claude Code Konfigurationen via Tech Packs und YAML
+- [LSP + LLM: Code-Verständnis für AI-Agents](lsp-llm-code-understanding.md) — LSP-MCP-Bridges, Keel, GitLab Knowledge Graph als semantische Schichten

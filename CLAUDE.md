@@ -45,12 +45,12 @@ skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
 
 Am Ende jedes Artikels, eine Zeile, Hashtags.
 
-## MOCs (Maps of Content)
+## Struktur & Navigation
 
-Jeder Ordner hat eine `MOC.md` die alle Artikel des Ordners verlinkt.
+Jeder Ordner hat eine `README.md` (von GitHub automatisch angezeigt) und thematische MOC-Dateien.
 
-**Beim Erstellen neuer Artikel:** Den Artikel immer in die passende MOC.md eintragen — Titel als Link + eine Zeile Beschreibung.
+**README.md je Ordner:** Kurze Beschreibung des Bereichs + Links zu den thematischen MOCs.
 
-**MOC-Format:**
-- Link: `[Titel](dateiname.md)`
-- Beschreibung: eine Zeile, sachlich, kein KI-Stil
+**Thematische MOCs:** Liste von Artikeln zu einem Themenfeld — `[Titel](dateiname.md)` + eine Zeile Beschreibung.
+
+**Beim Erstellen neuer Artikel:** Artikel in die passende thematische MOC eintragen — Titel als Link + eine Zeile Beschreibung, sachlich, kein KI-Stil.

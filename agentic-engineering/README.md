@@ -40,21 +40,18 @@ The model is not the secret. What actually creates leverage:
 - **Evals** — systematic verification that the output is actually correct
 - **Domain expertise** — garbage in, garbage out, faster
 
-## Structure of This Directory
+## Themen
+
+- [Patterns & Architekturen](patterns-und-architekturen.md) — Harness-Patterns, Agent-Koordination, Self-Organizing, Brain-Modell
+- [Claude Code & Werkzeuge](claude-code-und-werkzeuge.md) — Best Practices, Remote Control, Secrets, Config, LSP, MCS
+- [Konzepte & Grundlagen](konzepte.md) — Semantic Contracts, Spec-Driven Dev, Evals, Guardrails, Contracts
+
+## Unterordner
 
 ```
-agentic-engineering/
-├── README.md             ← this file
-├── concepts/
-│   ├── evolution.md      ← Waterfall→Scrum→Agents in depth
-│   ├── guardrails.md     ← What guardrails are and how to design them
-│   ├── evals.md          ← Evals: what, why, how
-│   └── contracts.md      ← AGENTS.md + OpenAPI as agent contracts
-├── templates/
-│   ├── AGENTS.md         ← Template for project-level agent instructions
-│   └── eval-checklist.md ← Checklist for eval coverage in agentic projects
-└── resources/
-    └── links.md          ← Curated external resources
+concepts/     — Vertiefungen zu Grundkonzepten (evolution, guardrails, evals, contracts)
+templates/    — AGENTS.md Template, Eval-Checkliste
+resources/    — kuratierte externe Links
 ```
 
 #agentic-engineering #software-development #ci-cd #evals #guardrails

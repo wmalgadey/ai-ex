@@ -1,4 +1,4 @@
-# Journal — Map of Content
+# Journal
 
 Persönliche Erfahrungen, Entscheidungen, Setup-Dokumentation.
 

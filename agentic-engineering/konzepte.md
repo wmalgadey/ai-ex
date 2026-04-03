@@ -1,0 +1,16 @@
+# Konzepte & Grundlagen
+
+Semantic Contracts, Spec-Driven Development, Bugfixing-Ansätze.
+
+## Artikel
+
+- [Semantic Contracts](semantic-contracts.md) — Semantic Anchors zu neuen Begriffen komponieren statt LLM-Verhalten hoffen
+- [GitHub Spec Kit](spec-kit.md) — Spec-Driven Development: 7-Schritt-Workflow, executable Specs, CLI-Tool
+- [AI-gestützter Bugfixing-Workflow](ai-bugfixing-workflow.md) — Erst verstehen, nicht fixen — KI als Analyse-Kollege statt Code-Generator
+
+## Konzept-Vertiefungen (concepts/)
+
+- [The Evolution: Waterfall → Scrum → Agentic](concepts/evolution.md) — Das invariante Muster: Geschwindigkeit erzwingt Struktur, nicht weniger
+- [Guardrails](concepts/guardrails.md) — Static, Dynamic, Semantic Guardrails; Design-Prinzipien; Feedback-Loop in den Agent
+- [Evals](concepts/evals.md) — Correctness, Behavior, Regression, Robustness Evals; Eval Harness Aufbau; CI-Integration
+- [Agent Contracts: AGENTS.md + OpenAPI](concepts/contracts.md) — AGENTS.md als Agent-Interface; OpenAPI als maschinenlesbare API-Contracts
