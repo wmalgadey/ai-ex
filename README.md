@@ -2,6 +2,13 @@
 
 Persönliche Wissensdatenbank zu KI-Werkzeugen, Agenten-Konzepten und praktischen Erfahrungen. Kein Tutorial-Blog.
 
+## Navigation
+
+- [Knowledge](./knowledge/README.md)
+- [Agentic Engineering](./agentic-engineering/README.md)
+- [Skills & Agents](./skills-and-agent/README.md)
+- [Journal](./journal/README.md)
+
 ## Aktuelles Setup (Stand: April 2026)
 
 Drei KI-Instanzen laufen auf derselben Maschine mit unterschiedlichen Security-Profilen. Die VM ist per Zone based Firewall vom Netzwerk getrennt und hat auch nur kontrollierten Zugang ins Netzwerk (tailscale) und ins Internet (Cloud Gateway Ultra)
@@ -48,10 +55,3 @@ skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
 ```
 
 Schreibstil und Konventionen: siehe [CLAUDE.md](./CLAUDE.md).
-
-## Navigation
-
-- [Knowledge](./knowledge/README.md)
-- [Agentic Engineering](./agentic-engineering/README.md)
-- [Skills & Agents](./skills-and-agent/README.md)
-- [Journal](./journal/README.md)
