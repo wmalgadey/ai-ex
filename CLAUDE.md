@@ -44,3 +44,13 @@ skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
 ## Tags
 
 Am Ende jedes Artikels, eine Zeile, Hashtags.
+
+## MOCs (Maps of Content)
+
+Jeder Ordner hat eine `MOC.md` die alle Artikel des Ordners verlinkt.
+
+**Beim Erstellen neuer Artikel:** Den Artikel immer in die passende MOC.md eintragen — Titel als Link + eine Zeile Beschreibung.
+
+**MOC-Format:**
+- Link: `[Titel](dateiname.md)`
+- Beschreibung: eine Zeile, sachlich, kein KI-Stil

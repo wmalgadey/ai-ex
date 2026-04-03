@@ -48,3 +48,10 @@ skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
 ```
 
 Schreibstil und Konventionen: siehe [CLAUDE.md](./CLAUDE.md).
+
+## Navigation
+
+- [Knowledge](./knowledge/MOC.md)
+- [Agentic Engineering](./agentic-engineering/MOC.md)
+- [Skills & Agents](./skills-and-agent/MOC.md)
+- [Journal](./journal/MOC.md)
