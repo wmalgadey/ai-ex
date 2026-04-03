@@ -3,6 +3,20 @@
 > "More speed forces more structure. Not less."
 > — Florian Burka
 
+## Themen
+
+- [Patterns & Architekturen](patterns-und-architekturen.md) — Harness-Patterns, Agent-Koordination, Self-Organizing, Brain-Modell
+- [Claude Code & Werkzeuge](claude-code-und-werkzeuge.md) — Best Practices, Remote Control, Secrets, Config, LSP, MCS
+- [Konzepte & Grundlagen](konzepte.md) — Semantic Contracts, Spec-Driven Dev, Evals, Guardrails, Contracts
+
+## Unterordner
+
+```
+concepts/     — Vertiefungen zu Grundkonzepten (evolution, guardrails, evals, contracts)
+templates/    — AGENTS.md Template, Eval-Checkliste
+resources/    — kuratierte externe Links
+```
+
 ## The Evolution
 
 | Era | Cycle Time | Bug Discovery | Response |
@@ -39,19 +53,5 @@ The model is not the secret. What actually creates leverage:
 - **Guardrails** — constraints that make wrong outputs impossible or visible
 - **Evals** — systematic verification that the output is actually correct
 - **Domain expertise** — garbage in, garbage out, faster
-
-## Themen
-
-- [Patterns & Architekturen](patterns-und-architekturen.md) — Harness-Patterns, Agent-Koordination, Self-Organizing, Brain-Modell
-- [Claude Code & Werkzeuge](claude-code-und-werkzeuge.md) — Best Practices, Remote Control, Secrets, Config, LSP, MCS
-- [Konzepte & Grundlagen](konzepte.md) — Semantic Contracts, Spec-Driven Dev, Evals, Guardrails, Contracts
-
-## Unterordner
-
-```
-concepts/     — Vertiefungen zu Grundkonzepten (evolution, guardrails, evals, contracts)
-templates/    — AGENTS.md Template, Eval-Checkliste
-resources/    — kuratierte externe Links
-```
 
 #agentic-engineering #software-development #ci-cd #evals #guardrails
