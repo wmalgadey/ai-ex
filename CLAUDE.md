@@ -34,11 +34,13 @@ agentic-engineering/  — Konzepte und Praxis rund um agentic software developme
 skills-and-agent/     — Konkrete Skills und Agent-Implementierungen
 ```
 
-## Frontmatter (optional, aber hilfreich)
+## YAML-Frontmatter (optional, aber hilfreich)
 
 ```
-**URL:** [Quelle]
-**Gespeichert:** YYYY-MM-DD
+---
+URL: [Quelle]
+Gespeichert: YYYY-MM-DD
+---
 ```
 
 ## Tags
