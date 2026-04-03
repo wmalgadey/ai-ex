@@ -1,7 +1,10 @@
+---
+Autor: Don Knuth, Stanford
+---
+
 # Don Knuth: "Claude's Cycles"
 
 **Datum:** 28. Februar 2026 (revised 4. März 2026)  
-**Autor:** Don Knuth, Stanford  
 **Paper:** https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf  
 **LinkedIn-Post:** https://www.linkedin.com/posts/barbaralampl_say-what-don-knuth-will-seine-sicht-auf-share-7435216114999214081-Qw02
 

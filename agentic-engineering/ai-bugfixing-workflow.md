@@ -1,7 +1,10 @@
+---
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7431969746625118209
+Gespeichert: 2026-02-28
+---
+
 # AI-gestützter Bugfixing-Workflow
 
-**Quelle:** [LinkedIn Post von Artur Kuksin](https://www.linkedin.com/feed/update/urn:li:activity:7431969746625118209)
-**Gespeichert:** 2026-02-28
 
 ---
 

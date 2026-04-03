@@ -1,6 +1,10 @@
+---
+URL: https://www.patreon.com/posts/1st-claude-app-w-151644630
+Gespeichert: 2026-03-01
+---
+
 # Alistair Cockburn – 1st Claude App with Hexagonal Architecture
 
-**Quelle:** https://www.patreon.com/posts/1st-claude-app-w-151644630
 
 ## Was ist das?
 
@@ -31,7 +35,6 @@ src/project_name/
 └── adapters/   # Implementations (fake, real)
 ```
 
-**Gespeichert:** 2026-03-01
 _Patreon erfordert Login — direkter Fetch nicht möglich._
 
 #hexagonal-architecture #ports-and-adapters #claude #ai-development #alistair-cockburn

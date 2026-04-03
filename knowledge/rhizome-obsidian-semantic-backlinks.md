@@ -1,7 +1,10 @@
+---
+URL: https://github.com/matzalazar/rhizome
+Gespeichert: 2026-03-26
+---
+
 # Rhizome — Semantische Backlinks für Obsidian
 
-**Quelle:** https://github.com/matzalazar/rhizome
-**Gespeichert:** 2026-03-26
 
 CLI-Tool das automatisch `## Related Notes`-Sektionen mit `[[wikilinks]]` in Vault-Dateien schreibt — basierend auf semantischer Ähnlichkeit (Cosine Similarity über Embeddings), nicht auf Keyword-Matching.
 

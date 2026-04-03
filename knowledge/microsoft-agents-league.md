@@ -1,7 +1,10 @@
+---
+URL: https://github.com/microsoft/agentsleague
+Gespeichert: 2026-02-28
+---
+
 # Microsoft Agents League
 
-**Quelle:** https://github.com/microsoft/agentsleague
-**Gespeichert:** 2026-02-28
 
 > 2-Wochen AI Developer Challenge (16.–27. Feb 2026) — Live Coding Battles, Community Challenges, GitHub-Submissions.
 > Wettbewerb ist beendet, aber Ressourcen (Starter Kits, Videos) sind weiterhin verfügbar.

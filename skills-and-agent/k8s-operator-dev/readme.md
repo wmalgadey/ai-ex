@@ -1,7 +1,10 @@
+---
+URL: https://github.com/Sagart-cactus/claude-k8s-plugin
+Gespeichert: 2026-03-01
+---
+
 # K8s Operator Development
 
-**Quelle:** https://github.com/Sagart-cactus/claude-k8s-plugin
-**Gespeichert:** 2026-03-01
 
 Claude Code Plugin für Kubernetes CRD Operator Development mit Kubebuilder und Tilt. Interessant wegen des integrierten Safety-Guards — blockiert `kubectl`/`helm` automatisch auf Non-Kind-Clustern.
 

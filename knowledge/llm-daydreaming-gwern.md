@@ -1,7 +1,10 @@
+---
+URL: https://www.lesswrong.com/posts/ZffDM6MkHDkXb9Si6/llm-daydreaming-gwern-net
+Gespeichert: 2026-03-22
+---
+
 # LLM Daydreaming — gwern.net
 
-**URL:** https://www.lesswrong.com/posts/ZffDM6MkHDkXb9Si6/llm-daydreaming-gwern-net
-**Gespeichert:** 2026-03-22
 
 Gwern argumentiert, dass LLMs keine genuinen neuen Erkenntnisse produzieren, weil zwei Mechanismen fehlen:
 

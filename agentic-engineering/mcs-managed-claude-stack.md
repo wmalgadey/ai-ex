@@ -1,7 +1,10 @@
+---
+URL: https://github.com/bguidolim/mcs
+Gespeichert: 2026-03-17
+---
+
 # mcs — Managed Claude Stack
 
-**URL:** https://github.com/bguidolim/mcs
-**Gespeichert:** 2026-03-17
 **Sprache:** Swift (macOS 13+)
 **Lizenz:** MIT
 **Version:** 2026.3.17

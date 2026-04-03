@@ -1,8 +1,11 @@
+---
+URL: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/
+Gespeichert: 2026-03-26
+Autor: Amir Zandieh, Vahab Mirrokni (Google Research)
+---
+
 # TurboQuant: Redefining AI Efficiency with Extreme Compression
 
-**Quelle:** https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/
-**Autoren:** Amir Zandieh, Vahab Mirrokni (Google Research)
-**Gespeichert:** 2026-03-26
 **Veröffentlicht:** ICLR 2026 (TurboQuant), AISTATS 2026 (PolarQuant)
 
 Vektorquantisierung hat ein inhärentes Overhead-Problem: Quantisierungskonstanten müssen in voller Präzision gespeichert werden, was 1–2 Bit pro Zahl kostet und den Kompressionsvorteil untergräbt. TurboQuant löst das mit einer Zwei-Stufen-Pipeline.

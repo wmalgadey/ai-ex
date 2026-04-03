@@ -1,6 +1,9 @@
+---
+URL: https://anthropic.skilljar.com/
+---
+
 # Anthropic Courses
 
-**URL:** https://anthropic.skilljar.com/
 
 Anthropics offizielle Kursplattform.
 

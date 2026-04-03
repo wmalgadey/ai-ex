@@ -1,6 +1,9 @@
+---
+URL: https://fal.ai/models/fal-ai/nano-banana-2
+---
+
 # Nano Banana 2 — Text-to-Image via fal.ai
 
-**Quelle:** https://fal.ai/models/fal-ai/nano-banana-2
 **Datum:** 2026-02-27
 
 ## Was ist das?

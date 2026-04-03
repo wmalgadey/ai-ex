@@ -1,8 +1,11 @@
+---
+URL: https://www.linkedin.com/posts/niven-v-819303a9_shockierend-für-alle-die-multiagentframeworks-share-7445163863689412608-kjQ7
+Gespeichert: 2026-04-02
+---
+
 # Drop the Hierarchy: Self-Organizing LLM Agents übertreffen designte Strukturen
 
-**Quelle:** https://www.linkedin.com/posts/niven-v-819303a9_shockierend-für-alle-die-multiagentframeworks-share-7445163863689412608-kjQ7
 **Paper:** "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures" — Victoria Dochkina, MIPT
-**Gespeichert:** 2026-04-02
 
 Studie mit 25.000 Tasks, 8 Koordinationsprotokollen, 8 Modellen, 4–256 Agenten.
 

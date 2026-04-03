@@ -1,7 +1,10 @@
+---
+URL: https://nono.sh
+Gespeichert: 2026-04-02
+---
+
 # nono — OS-level Sandbox für KI-Agenten
 
-**Quelle:** https://nono.sh
-**Gespeichert:** 2026-04-02
 
 Open-Source-Sicherheitstool für KI-Agenten vom Sigstore-Gründer. Kernel-Enforcement statt Anwendungs-Guardrails — was nicht explizit erlaubt ist, ist auf OS-Ebene blockiert.
 

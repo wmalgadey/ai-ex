@@ -1,8 +1,11 @@
+---
+URL: https://itrevolution.com (3 Things the Human Brain Teaches Us About Agentic Automation)
+Gespeichert: 2026-03-30
+Autor: Matt McLarty (CTO, Boomi)
+---
+
 # Das Gehirn als Designmodell für agentische Automatisierung
 
-**Quelle:** https://itrevolution.com (3 Things the Human Brain Teaches Us About Agentic Automation)
-**Autor:** Matt McLarty (CTO, Boomi)
-**Gespeichert:** 2026-03-30
 
 Kahnemans System 1 (schnell, deterministisch) und System 2 (langsam, analytisch) als Rahmen für den Einsatz von KI-Agenten. Nicht alles muss durch LLMs — jahrzehntelange regelbasierte Automatisierung bleibt wertvoll.
 

@@ -1,7 +1,10 @@
+---
+URL: https://mastra.ai/docs/memory/observational-memory
+Gespeichert: 2026-03-22
+---
+
 # Mastra — Observational Memory
 
-**URL:** https://mastra.ai/docs/memory/observational-memory
-**Gespeichert:** 2026-03-22
 
 ## Was ist das?
 

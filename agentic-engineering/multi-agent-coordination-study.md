@@ -1,8 +1,11 @@
+---
+URL: https://www.linkedin.com/posts/niven-v-819303a9_shockierend-f%C3%BCr-alle-die-multiagentframeworks-share-7445163863689412608-kjQ7
+Gespeichert: 2026-04-01
+Autor: Niven V. (via LinkedIn)
+---
+
 # Multi-Agent-Koordination: Selbstorganisation schlägt Orchestrierung
 
-**Quelle:** https://www.linkedin.com/posts/niven-v-819303a9_shockierend-f%C3%BCr-alle-die-multiagentframeworks-share-7445163863689412608-kjQ7
-**Autor:** Niven V. (via LinkedIn)
-**Gespeichert:** 2026-04-01
 
 Studie mit 25.000 Tasks, 8 Koordinationsprotokollen, 8 Modellen, 4–256 Agents — bislang größtes Benchmarking von Multi-Agent-Koordination.
 

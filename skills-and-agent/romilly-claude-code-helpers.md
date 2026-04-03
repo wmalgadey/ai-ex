@@ -1,6 +1,9 @@
+---
+URL: https://github.com/romilly/claude-code-helpers
+---
+
 # Romilly Riddle – Claude Code Helpers
 
-**Quelle:** https://github.com/romilly/claude-code-helpers
 
 ## Was ist das?
 

@@ -1,8 +1,11 @@
+---
+URL: https://www.linkedin.com/posts/felixschlenther_fast-zwei-jahre-lang-haben-wir-bei-ai-first-share-7441746609769451520-iLCr
+Gespeichert: 2026-03-26
+Autor: Felix Schlenther (AI FIRST)
+---
+
 # Vom Agenten-Team zum KI-Betriebssystem
 
-**Quelle:** https://www.linkedin.com/posts/felixschlenther_fast-zwei-jahre-lang-haben-wir-bei-ai-first-share-7441746609769451520-iLCr
-**Autor:** Felix Schlenther (AI FIRST)
-**Gespeichert:** 2026-03-26
 
 AI FIRST hat nach fast zwei Jahren mit 25 spezialisierten Agenten auf einen einzelnen universellen Agenten mit strukturiertem Betriebssystem umgestellt.
 

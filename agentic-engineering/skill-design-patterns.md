@@ -1,8 +1,11 @@
+---
+URL: https://www.linkedin.com/posts/5-agent-skill-design-patterns-ugcPost-7442601238774300674-glXj
+Gespeichert: 2026-03-26
+Autor: Google Cloud (via Shubham Saboo & Lavi Nigam)
+---
+
 # 5 Agent Skill Design Patterns
 
-**Quelle:** https://www.linkedin.com/posts/5-agent-skill-design-patterns-ugcPost-7442601238774300674-glXj
-**Autor:** Google Cloud (via Shubham Saboo & Lavi Nigam)
-**Gespeichert:** 2026-03-26
 
 > When it comes to SKILL.md, developers tend to fixate on the format, but with more than 30 agent tools standardizing on the same layout, the formatting problem is practically obsolete. **The challenge now is content design.**
 

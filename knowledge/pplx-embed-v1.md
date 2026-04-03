@@ -1,6 +1,9 @@
+---
+URL: https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/
+---
+
 # Perplexity pplx-embed-v1 — Embedding Models
 
-**Quelle:** https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/
 **Datum:** 2026-02-28
 **Lizenz:** MIT
 

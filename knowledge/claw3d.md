@@ -1,7 +1,10 @@
+---
+URL: https://github.com/iamlukethedev/Claw3D
+Gespeichert: 2026-03-23
+---
+
 # Claw3D
 
-**Quelle:** https://github.com/iamlukethedev/Claw3D
-**Gespeichert:** 2026-03-23
 
 Open-Source-3D-Engine auf Basis von OpenClaw, 581 Stars. Jemand hat OpenClaw genommen und daraus eine vollständige 3D-Engine für Games und Simulationen gebaut.
 

@@ -1,8 +1,11 @@
+---
+URL: https://www.linkedin.com/pulse/10-harness-patterns-agents-run-days-instead-seconds-daniel-meyer-khj1e
+Gespeichert: 2026-03-28
+Autor: Daniel Meyer (CTO, Camunda)
+---
+
 # 10 Agent Harness Patterns
 
-**Quelle:** https://www.linkedin.com/pulse/10-harness-patterns-agents-run-days-instead-seconds-daniel-meyer-khj1e
-**Autor:** Daniel Meyer (CTO, Camunda)
-**Gespeichert:** 2026-03-28
 
 > "The hard part isn't the model anymore — it's the system around the model."
 

@@ -1,6 +1,9 @@
+---
+URL: https://agentfactory.panaversity.org/docs/about
+---
+
 # Panaversity: The AI Agent Factory
 
-**Quelle:** https://agentfactory.panaversity.org/docs/about
 **Datum:** 2026-03-15
 
 ## Was ist das?

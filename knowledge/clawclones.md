@@ -1,7 +1,10 @@
+---
+URL: https://clawclones.com/
+Gespeichert: 2026-03-01
+---
+
 # ClawClones — The OpenClaw Ecosystem
 
-**URL:** https://clawclones.com/
-**Gespeichert:** 2026-03-01
 
 ## Was ist das?
 
