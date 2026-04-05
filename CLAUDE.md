@@ -55,4 +55,7 @@ Jeder Ordner hat eine `README.md` (von GitHub automatisch angezeigt) und themati
 
 **Thematische MOCs:** Liste von Artikeln zu einem Themenfeld — `[Titel](dateiname.md)` + eine Zeile Beschreibung.
 
-**Beim Erstellen neuer Artikel:** Artikel in die passende thematische MOC eintragen — Titel als Link + eine Zeile Beschreibung, sachlich, kein KI-Stil.
+**Beim Erstellen neuer Artikel:**
+1. Artikel in die passende thematische MOC eintragen — Titel als Link + eine Zeile Beschreibung, sachlich, kein KI-Stil.
+2. Das Datum der geänderten MOC in der **Hauptdatei `README.md`** aktualisieren (Spalte "Zuletzt geändert").
+3. Wenn ein neuer Artikel einem neuen Themenbereich entspricht, neue MOC-Datei anlegen und in `README.md` einführen.

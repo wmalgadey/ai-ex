@@ -4,10 +4,39 @@ Persönliche Wissensdatenbank zu KI-Werkzeugen, Agenten-Konzepten und praktische
 
 ## Navigation
 
-- [Knowledge](./knowledge/README.md)
-- [Agentic Engineering](./agentic-engineering/README.md)
-- [Skills & Agents](./skills-and-agent/README.md)
-- [Journal](./journal/README.md)
+### 📚 Knowledge
+_Werkzeuge, Modelle, Recherche (externe Quellen)_ — [Ordner-Übersicht](./knowledge/README.md)
+
+| MOC | Zuletzt geändert |
+|---|---|
+| [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-04-03 |
+| [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-03 |
+| [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-05 |
+
+### ⚙️ Agentic Engineering
+_Konzepte und Praxis rund um agentic software development_ — [Ordner-Übersicht](./agentic-engineering/README.md)
+
+| MOC | Zuletzt geändert |
+|---|---|
+| [Patterns & Architekturen](./agentic-engineering/patterns-und-architekturen.md) | 2026-04-03 |
+| [Claude Code & Werkzeuge](./agentic-engineering/claude-code-und-werkzeuge.md) | 2026-04-03 |
+| [Konzepte & Grundlagen](./agentic-engineering/konzepte.md) | 2026-04-03 |
+
+### 🛠️ Skills & Agents
+_Konkrete Skills und Agent-Implementierungen_ — [Ordner-Übersicht](./skills-and-agent/README.md)
+
+| MOC | Zuletzt geändert |
+|---|---|
+| [Claude Code Plugins](./skills-and-agent/claude-code-plugins.md) | 2026-04-03 |
+| [Agenten & Memory](./skills-and-agent/agenten-und-memory.md) | 2026-04-03 |
+
+### 📓 Journal
+_Persönliche Erfahrungen, Entscheidungen, Setup-Dokumentation_ — [Ordner-Übersicht](./journal/README.md)
+
+| Artikel | Zuletzt geändert |
+|---|---|
+| [Von OpenClaw zu NanoClaw](./journal/openclaw-to-nanoclaw-journey.md) | 2026-04-03 |
+| [Dual-Bot Setup: OpenClaw + NanoClaw parallel](./journal/dual-bot-setup-april-2026.md) | 2026-04-03 |
 
 ## Aktuelles Setup (Stand: April 2026)
 
