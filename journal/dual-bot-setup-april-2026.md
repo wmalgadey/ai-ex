@@ -1,4 +1,4 @@
-# Dual-Bot Setup: OpenClaw + NanoClaw parallel
+# Dual-Bot Setup: Zaphod (OpenClaw) + Marvin (NanoClaw) parallel
 
 _April 2026_
 
@@ -8,16 +8,16 @@ _April 2026_
 
 Zwei KI-Assistenten laufen parallel auf demselben Linux-Server (Ubuntu):
 
-- **OpenClaw** — etabliert, vollständig eingerichtet, eigener Telegram-Bot
-- **NanoClaw** — eigenes Projekt, separater Telegram-Bot
+- **Zaphod** (OpenClaw) — etabliert, vollständig eingerichtet, eigener Telegram-Bot, direkter Host-Zugriff
+- **Marvin** (NanoClaw) — sandboxed Docker-Container, separater Telegram-Bot
 
-Beide heißen "Marvin". Beide reagieren auf Telegram-Nachrichten. Kein Konflikt, da unterschiedliche Bot-Tokens.
+Unterschiedliche Personas, unterschiedliche Telegram-Bots, unterschiedliche Zugriffsebenen — kein Konflikt.
 
 ---
 
 ## Architektur
 
-### OpenClaw
+### Zaphod (OpenClaw)
 
 ```
 Telegram (Bot A) → OpenClaw Gateway (Port 18789)
@@ -33,7 +33,7 @@ Telegram (Bot A) → OpenClaw Gateway (Port 18789)
 - Git-Backup: GitLab auf `dev-pod01` (Tailscale)
 - Exec-Approvals: per Telegram aktiviert (`approvals.exec` + `channels.telegram.execApprovals`)
 
-### NanoClaw
+### Marvin (NanoClaw)
 
 ```
 Telegram (Bot B) → NanoClaw (Port 3001 Credential Proxy)
@@ -154,7 +154,7 @@ Approval-Anfragen kommen als Telegram-Nachricht mit `/approve <id> allow-once|al
 
 **NanoClaw Credential Proxy:** Elegantes Security-Pattern. Container bekommen einen lokalen HTTP-Proxy statt echter Credentials. Minimiert Blast Radius bei Container-Kompromittierung.
 
-**Dual-Bot:** Zwei Bots parallel auf einem Server funktioniert problemlos solange Telegram-Tokens getrennt sind. Keine gegenseitige Störung.
+**Dual-Bot (Marvin + Zaphod):** Zwei Bots parallel auf einem Server funktioniert problemlos solange Telegram-Tokens getrennt sind. Keine gegenseitige Störung. Unterschiedliche Zugriffsebenen als Feature, nicht als Bug — Marvin sandboxed, Zaphod mit Host-Zugriff.
 
 ---
 
