@@ -35,8 +35,8 @@ _Persönliche Erfahrungen, Entscheidungen, Setup-Dokumentation_ — [Ordner-Übe
 
 | Artikel | Zuletzt geändert |
 |---|---|
-| [Von OpenClaw zu NanoClaw](./journal/openclaw-to-nanoclaw-journey.md) | 2026-04-03 |
-| [Dual-Bot Setup: OpenClaw + NanoClaw parallel](./journal/dual-bot-setup-april-2026.md) | 2026-04-03 |
+| [Von OpenClaw zu NanoClaw](./journal/openclaw-to-nanoclaw-journey.md) | 2026-03-22 |
+| [Dual-Bot Setup: OpenClaw + NanoClaw parallel](./journal/dual-bot-setup-april-2026.md) | 2026-04-02 |
 
 ## Aktuelles Setup (Stand: April 2026)
 
