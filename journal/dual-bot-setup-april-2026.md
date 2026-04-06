@@ -36,23 +36,31 @@ Telegram (Bot A) → OpenClaw Gateway (Port 18789)
 ### Marvin (NanoClaw)
 
 ```
-Telegram (Bot B) → NanoClaw (Port 3001 Credential Proxy)
+Telegram (Bot B) → NanoClaw Orchestrator
                           ↓
               Docker Container (nanoclaw-agent:latest)
                           ↓
-                   Claude Agent SDK (OAuth Token)
+                   ANTHROPIC_BASE_URL=http://localhost:10254
+                          ↓
+                   OneCLI Gateway (Port 10254)
+                          ↓
+                   Anthropic API
 ```
 
 - Läuft als systemd user service `nanoclaw`
 - Codebase: `~/nanoclaw/` (Fork von `qwibitai/nanoclaw`, eigener Fork `wmalgadey/nanoclaw`)
 - Agents laufen in isolierten Docker-Containern — filesystem isolation, nicht nur application-level
-- Credential Proxy: Container sehen nie echte API-Credentials
+- Credentials werden über OneCLI verwaltet, nie direkt im Container
 - Per-Gruppe isolierter Filesystem-Mount: `groups/telegram_main/`
 - Zusätzliche Mounts: `~/repos` (read-write), `blogwatcher` CLI
 
-### Credential Proxy (Port 3001)
+### OneCLI als Credential-Layer (Port 10254/10255)
 
-NanoClaw startet einen eigenen HTTP-Proxy auf Port 3001. Container bekommen `ANTHROPIC_BASE_URL=http://host.docker.internal:3001` — echter Token wird erst im Proxy injiziert. Sicherheitsfeature: kompromittierter Container kann keinen API-Key extrahieren.
+NanoClaw nutzt **OneCLI** (`ghcr.io/onecli/onecli:latest`) als Credential-Proxy — läuft als Docker-Container (`onecli-app-1`) mit eigenem Postgres-Backend. Container bekommen `ANTHROPIC_BASE_URL=http://localhost:10254` — der echte API-Key wird erst in OneCLI injiziert.
+
+- Web-Dashboard: Port 10255 (`/overview`) — Credentials hier verwalten
+- Sicherheitsfeature: kompromittierter Agent-Container kann keinen API-Key extrahieren
+- **Gotcha:** Wenn der OAuth-Token in der Anthropic Console gelöscht wird, muss er in OneCLI neu hinterlegt werden — nicht in der `.env`
 
 ---
 
@@ -152,7 +160,7 @@ Approval-Anfragen kommen als Telegram-Nachricht mit `/approve <id> allow-once|al
 
 **systemd PATH:** User-Services erben nicht den Login-Shell-PATH. Entweder vollen PATH in die Service-Unit schreiben oder `Environment=` verwenden.
 
-**NanoClaw Credential Proxy:** Elegantes Security-Pattern. Container bekommen einen lokalen HTTP-Proxy statt echter Credentials. Minimiert Blast Radius bei Container-Kompromittierung.
+**OneCLI als Credential-Layer:** NanoClaw nutzt OneCLI als Zwischenschicht zwischen Containers und Anthropic API. Credentials werden in OneCLI verwaltet (Web-UI auf Port 10255), Container sehen nie den echten Token. Minimiert Blast Radius bei Container-Kompromittierung. Wichtig: wenn der Token in der Anthropic Console rotiert/gelöscht wird, muss er in OneCLI neu gesetzt werden — nicht in der `.env`.
 
 **Dual-Bot (Marvin + Zaphod):** Zwei Bots parallel auf einem Server funktioniert problemlos solange Telegram-Tokens getrennt sind. Keine gegenseitige Störung. Unterschiedliche Zugriffsebenen als Feature, nicht als Bug — Marvin sandboxed, Zaphod mit Host-Zugriff.
 
