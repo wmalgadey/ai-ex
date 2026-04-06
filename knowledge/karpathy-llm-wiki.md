@@ -35,7 +35,19 @@ Das LLM liest eine neue Quelle nicht einfach zur späteren Abfrage — es liest,
 
 - Obsidian Web Clipper für schnelle Erfassung
 - Obsidian Graph View zur Visualisierung
-- `qmd` für lokale Wiki-Suche
+- **qmd** ([github.com/tobi/qmd](https://github.com/tobi/qmd)) für lokale Wiki-Suche
+
+### qmd
+
+On-device Suchmaschine für Markdown-Notizen und Wissensdatenbanken. Drei Modi:
+
+1. `search` — BM25 Full-Text
+2. `vsearch` — Vector/Semantisch
+3. `query` — Hybrid + LLM-Reranking (beste Qualität)
+
+Kein externer API-Call, keine Daten verlassen das System. Output in JSON für LLM-Consumption optimiert, MCP-Server-Modus für Claude Desktop verfügbar.
+
+Passt als Query-Layer direkt in den LLM-Wiki-Workflow: LLM ruft `query` auf, bekommt strukturierte Ergebnisse, entscheidet welche Wiki-Seiten relevant sind.
 
 ## Was bereits existiert
 
