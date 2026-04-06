@@ -4,6 +4,7 @@ Sandboxing, lokale Tools, Obsidian-Erweiterungen.
 
 ## Artikel
 
+- [Karpathy: LLM Wiki](karpathy-llm-wiki.md) — Alternative zu RAG: LLM pflegt persistent strukturierte Wiki; Ingest/Query/Lint-Workflow; ai-ex folgt demselben Muster
 - [Hermes Agent vs. NanoClaw vs. OpenClaw](hermes-vs-claw-vergleich.md) — Vergleich selbst-gehosteter Agenten: Hermes (Nous Research), Marvin, Zaphod
 - [AI Memory — Projekte im Vergleich](ai-memory-vergleich.md) — mem0, Supermemory, Vertex AI Memory Bank, ByteRover CLI; Ansätze für persistentes Agent-Gedächtnis
 - [nono — OS-level Sandbox für KI-Agenten](nono-agent-sandbox.md) — Kernel-Enforcement (Landlock/Seatbelt), Rollback, Audit Trail via Sigstore

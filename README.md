@@ -11,7 +11,7 @@ _Werkzeuge, Modelle, Recherche (externe Quellen)_ — [Ordner-Übersicht](./know
 |---|---|
 | [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-04-03 |
 | [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-03 |
-| [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-05 |
+| [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-06 |
 
 ### ⚙️ Agentic Engineering
 _Konzepte und Praxis rund um agentic software development_ — [Ordner-Übersicht](./agentic-engineering/README.md)
