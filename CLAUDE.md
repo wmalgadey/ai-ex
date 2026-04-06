@@ -57,5 +57,5 @@ Jeder Ordner hat eine `README.md` (von GitHub automatisch angezeigt) und themati
 
 **Beim Erstellen neuer Artikel:**
 1. Artikel in die passende thematische MOC eintragen — Titel als Link + eine Zeile Beschreibung, sachlich, kein KI-Stil.
-2. Das Datum der geänderten MOC in der **Hauptdatei `README.md`** aktualisieren (Spalte "Zuletzt geändert").
+2. In der **Hauptdatei `README.md`** in der Tabelle das Datum der geänderten MOC-Zeile auf das heutige Datum setzen — das Datum gibt an, wann die MOC zuletzt inhaltlich geändert wurde, nicht wann die README-Tabelle bearbeitet wurde.
 3. Wenn ein neuer Artikel einem neuen Themenbereich entspricht, neue MOC-Datei anlegen und in `README.md` einführen.
