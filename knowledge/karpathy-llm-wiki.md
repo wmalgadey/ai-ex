@@ -49,23 +49,48 @@ Kein externer API-Call, keine Daten verlassen das System. Output in JSON für LL
 
 Passt als Query-Layer direkt in den LLM-Wiki-Workflow: LLM ruft `query` auf, bekommt strukturierte Ergebnisse, entscheidet welche Wiki-Seiten relevant sind.
 
+### Graphify — Visualisierungsschicht
+
+**→ [github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)** — MIT
+
+Ergänzung zu qmd: wo qmd text-basiert sucht, macht Graphify Beziehungen sichtbar. Verwandelt Ordner mit Code, Dokumentation, Papers und Bildern in interaktive Knowledge-Graphen.
+
+Zwei Verarbeitungs-Passes:
+1. **Deterministisch:** AST-Extraktion via tree-sitter — Klassen, Funktionen, Call-Graphs (kein LLM-Overhead)
+2. **LLM-parallel:** Claude Subagents extrahieren Konzepte und Beziehungen aus Non-Code-Dateien
+
+Ergebnis: NetworkX-Graph, Leiden Community Detection, Export als HTML / JSON / Markdown-Wiki. Neo4j-Export optional.
+
+Relationship-Typen: `EXTRACTED` (sicher), `INFERRED` (mit Confidence-Score), `AMBIGUOUS`.
+
+Trigger via `/graphify` in Claude Code, Codex, OpenClaw. Behaupteter Effizienz-Wert: 71,5× weniger Token pro Query gegenüber Raw-File-Lesen (bei großen Mixed-Corpora).
+
+**Passt in den LLM-Wiki-Stack als Visualisierungsschicht:**
+```
+Raw Sources → Wiki (Karpathy/LLM) → Graph (Graphify) → Query (qmd)
+```
+
 ## Was bereits existiert
 
 **ai-ex ist bereits eine LLM Wiki.** Marvin pflegt sie aktiv: Artikel werden beim Ingest extrahiert, in thematische MOCs eingetragen, cross-referenziert. Das Muster ist identisch — ohne dass Karpathys Post der Ausgangspunkt war.
 
 **Im Zettelkasten** gibt es bereits:
 - `2025-12-05_2155 - LLM Council` — früheres Karpathy-Projekt (Multi-LLM-Voting)
-- `Agentic Engineering MOC.md` — verlinkt Vibe Coding als Kontrastpunkt
+- `Agentic Engineering MOC.md` — verlinkt Vibe Coding als Kontrastpunkt; LangGraph als graph-basierte Orchestrierung
 - `2025-12-18_1002 - Spec-Driven Development` — verwandt (Struktur vs. Improvisation)
+- `Personal Knowledge Management MOC.md` — Backlinks, bidirektionale Verlinkung (konzeptueller Vorläufer zu Graphify)
+- `Claude Code Workflow für Zettelkasten.md` — Backlink-Management, visueller Graph-Überblick als explizites Ziel
+- `PostgreSQL als Graph-Datenbank mit pgRouting` — Graph-Konzept bereits bekannt, anderer Stack
 
 **Verwandt im ai-ex:**
 - [AI Memory Vergleich](ai-memory-vergleich.md) — mem0, Supermemory etc. lösen das Memory-Problem anders (User-scoped, Session-scoped)
 - [Semantic Contracts](../agentic-engineering/semantic-contracts.md) — CLAUDE.md als Schema-Datei
+- [Rhizome — Semantische Backlinks für Obsidian](werkzeuge-und-infrastruktur.md) — ähnlicher Ansatz: semantische Verlinkung für Markdown-Vaults; Graphify geht weiter (Code + Docs + Bilder, interaktiv)
 
 ## NanoClaw
 
 Ein Skill für das LLM-Wiki-Pattern ist für ein kommendes Update geplant.
 
-_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06._
+_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06. Graphify ergänzt 2026-04-07._
 
-#karpathy #llm-wiki #knowledge-management #rag #obsidian #memory
+#karpathy #llm-wiki #knowledge-management #rag #obsidian #memory #graphify #knowledge-graph
