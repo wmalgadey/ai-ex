@@ -49,6 +49,34 @@ Kein externer API-Call, keine Daten verlassen das System. Output in JSON für LL
 
 Passt als Query-Layer direkt in den LLM-Wiki-Workflow: LLM ruft `query` auf, bekommt strukturierte Ergebnisse, entscheidet welche Wiki-Seiten relevant sind.
 
+### llm-wiki-compiler — Direkte Implementierung
+
+**→ [github.com/atomicmemory/llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler)** — MIT, TypeScript, Node ≥18
+
+Implementiert Karpathys Pattern direkt als CLI. Zwei-Phasen-Pipeline: erst Konzept-Extraktion aus allen Quellen, dann Wiki-Generierung. SHA-256-Hashing für inkrementelles Processing — nur geänderte Quellen lösen LLM-Calls aus.
+
+Befehle entsprechen exakt den drei Operationen:
+
+| Befehl | Karpathy-Operation |
+|---|---|
+| `ingest` | Ingest |
+| `compile` | Ingest (Verarbeitung) |
+| `query` | Query |
+| `lint` | Lint |
+| `watch` | Automatisches Re-Compile |
+
+Output-Struktur:
+```
+wiki/
+├── concepts/   (ein .md pro Konzept, YAML-Frontmatter)
+├── queries/    (gespeicherte Antworten, indiziert)
+└── index.md    (auto-generiert)
+```
+
+Obsidian-kompatibel mit `[[wikilink]]`-Support. `--save`-Flag speichert Query-Antworten als neue Wiki-Seiten — Wissen akkumuliert sich über Zeit. Paragraph-Level-Attribution mit `^[filename.md]`-Markern.
+
+Aktuell: Anthropic-only, optimiert für kleine Corpora (Dutzende Quellen). Roadmap: Multi-Provider, Semantic Search, MCP-Server.
+
 ### Graphify — Visualisierungsschicht
 
 **→ [github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)** — MIT
@@ -91,6 +119,6 @@ Raw Sources → Wiki (Karpathy/LLM) → Graph (Graphify) → Query (qmd)
 
 Ein Skill für das LLM-Wiki-Pattern ist für ein kommendes Update geplant.
 
-_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06. Graphify ergänzt 2026-04-07._
+_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06. Graphify ergänzt 2026-04-07. llm-wiki-compiler ergänzt 2026-04-08._
 
-#karpathy #llm-wiki #knowledge-management #rag #obsidian #memory #graphify #knowledge-graph
+#karpathy #llm-wiki #knowledge-management #rag #obsidian #memory #graphify #knowledge-graph #llm-wiki-compiler
