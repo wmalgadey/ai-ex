@@ -35,6 +35,20 @@ Felix Schlenther beschreibt 6 Komponenten — nach fast 2 Jahren mit 25 speziali
 
 → Quelle: [felix-schlenther-ki-betriebssystem.md](../knowledge/felix-schlenther-ki-betriebssystem.md)
 
+**Zweiter Post (April 2026):** Destilliert auf 5 Bausteine und benennt den konzeptuellen Kern explizit:
+
+> "Die Intelligenz steckt nicht im Agent, sondern in den Skills, im Kontext und in der Governance. Der Agent nimmt aus diesen Bausteinen die Form an, wie die Aufgabe es erfordert."
+
+→ Der Agent ist bewusst "dumm" gehalten. Das ist eine Design-Entscheidung, keine Schwäche.
+
+Der eigentliche Paradigmenwechsel, den Schlenther benennt:
+
+> "In diesem System verschiebt sich der Fokus unserer Zeit von 'Ich mache die Arbeit' zu 'Ich baue das System, das die Arbeit macht'."
+
+Und: "Und genau dieser Change fällt auch uns noch sehr schwer, weil wir komplett verlernen und dann nochmal neu lernen müssen, wie wir eigentlich arbeiten."
+
+→ Quelle: [felix-schlenther-ki-betriebssystem-2.md](../knowledge/felix-schlenther-ki-betriebssystem-2.md)
+
 ---
 
 ## Parallelen zum echten Betriebssystem
@@ -132,4 +146,14 @@ Das eigene Marvin/Zaphod-Setup ist bereits ein KI-Betriebssystem in der Praxis:
 - Plattform: LinkedIn, eigenes Blog, Newsletter?
 - Ton: analytisch-distanziert oder persönliche Erfahrung?
 
-_Stand: 2026-04-09_
+## Zusätzliche Zitate für den Post
+
+> "Anstatt hunderte 'KI-Mitarbeiter' onzuboarden, zu trainieren und zu warten, baut sich KI dynamisch so zusammen, wie es für die Aufgabe erforderlich ist."
+> — Schlenther, Post 2
+
+> "Als Betriebssystem aufgesetzt, erkennt KI anfallende Arbeit (als Output aus Mails, Meetings, Datenbank-Änderungen, …) und organisiert dann Prozesse, Daten, Tools und Regeln so, dass diese Arbeit von KI ausgeführt werden kann."
+> — Schlenther, Post 2
+
+---
+
+_Stand: 2026-04-09 (erweitert um 2. Schlenther-Post)_
