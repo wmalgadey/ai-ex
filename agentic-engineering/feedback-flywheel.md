@@ -43,9 +43,21 @@ Nicht einmalig aufgeschriebene Regeln, sondern aktiv gepflegte Artefakte:
 - First-Pass Acceptance Rate
 - Ramp-up Zeit neuer Teammitglieder
 
-## Verbindungen
+## Einordnung im größeren Kontext
 
-- [Semantic Contracts](semantic-contracts.md) — CLAUDE.md/AGENTS.md als Shared Artifacts sind die Ziel-Infrastruktur
+Der Flywheel ist der menschliche Ingest-Loop — er entscheidet was in die geteilten Artefakte kommt und wann.
+
+```
+Session-Memory (mem0/Supermemory)     ← automatisch, Laufzeit
+       ↓
+LLM Wiki (Karpathy)                   ← kuratiert, persistent
+       ↓
+Feedback Flywheel (Fowler/Garg)       ← sozial, organisational ← hier
+```
+
+- [Karpathy: LLM Wiki](../knowledge/karpathy-llm-wiki.md) — die technische Architektur des Wissens-Speichers; Flywheel ist der soziale Prozess der ihn befüllt
+- [AI Memory Vergleich](../knowledge/ai-memory-vergleich.md) — automatische Laufzeit-Memory (mem0, Supermemory etc.); läuft parallel, ohne Flywheel-Kadenzen
+- [Semantic Contracts](semantic-contracts.md) — CLAUDE.md/AGENTS.md als Shared Artifacts sind die primäre Ziel-Infrastruktur
 - [Agent Contracts: AGENTS.md + OpenAPI](concepts/contracts.md) — was befüllt wird
 - [Claude Code Best Practice](claude-code-best-practice.md) — individuelle Ebene; Feedback Flywheel die Team-Ebene darüber
 

@@ -77,6 +77,22 @@ Unterschied zu den anderen: kein User-Memory, sondern **Projekt-/Codebase-Memory
 | Vertex AI Memory Bank | Agent Memory (GCP) | Google Managed | Multi-Agent-sharing, zero Infrastruktur |
 | ByteRover CLI | Codebase/Projekt Memory | Self-hosted + Cloud Sync | Dev-Workflow, Team-Sharing |
 
+## Einordnung im größeren Kontext
+
+AI Memory (diese Tools) ist die Laufzeit-Ebene: automatisch, agent-seitig, flüchtig bis persistent.
+
+Zwei verwandte Ansätze auf anderen Ebenen:
+- [Karpathy: LLM Wiki](karpathy-llm-wiki.md) — kuratierter Wissensspeicher (Markdown-Wiki, menschlich/agent gepflegt); strukturierter als Session-Memory, aber manuell getrieben
+- [Feedback Flywheel](../agentic-engineering/feedback-flywheel.md) — Team-Lernen als sozialer Prozess; Erkenntnisse aus KI-Interaktionen fließen in geteilte Artefakte (AGENTS.md, Playbooks)
+
+```
+Session-Memory (mem0/Supermemory)     ← automatisch, Laufzeit
+       ↓
+LLM Wiki (Karpathy)                   ← kuratiert, persistent
+       ↓
+Feedback Flywheel (Fowler/Garg)       ← sozial, organisational
+```
+
 _Rekonstruiert aus GitHub READMEs und Dokumentation, 2026-04-05._
 
 #memory #agents #infrastruktur #vergleich #mem0 #supermemory #vertexai #byterover

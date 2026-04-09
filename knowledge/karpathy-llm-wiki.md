@@ -110,8 +110,18 @@ Raw Sources → Wiki (Karpathy/LLM) → Graph (Graphify) → Query (qmd)
 - `Claude Code Workflow für Zettelkasten.md` — Backlink-Management, visueller Graph-Überblick als explizites Ziel
 - `PostgreSQL als Graph-Datenbank mit pgRouting` — Graph-Konzept bereits bekannt, anderer Stack
 
-**Verwandt im ai-ex:**
-- [AI Memory Vergleich](ai-memory-vergleich.md) — mem0, Supermemory etc. lösen das Memory-Problem anders (User-scoped, Session-scoped)
+**Verwandt im ai-ex — drei Ebenen desselben Stacks:**
+
+```
+Session-Memory (mem0/Supermemory)     ← automatisch, Laufzeit
+       ↓
+LLM Wiki (Karpathy) ← hier           ← kuratiert, persistent
+       ↓
+Feedback Flywheel (Fowler/Garg)       ← sozial, organisational
+```
+
+- [AI Memory Vergleich](ai-memory-vergleich.md) — Ebene darunter: automatische Laufzeit-Memory (mem0, Supermemory etc.), User-/Session-scoped
+- [Feedback Flywheel](../agentic-engineering/feedback-flywheel.md) — Ebene darüber: wie Teams kollektiv lernen und Artefakte befüllen; der menschliche Ingest-Loop für die Wiki
 - [Semantic Contracts](../agentic-engineering/semantic-contracts.md) — CLAUDE.md als Schema-Datei
 - [Rhizome — Semantische Backlinks für Obsidian](werkzeuge-und-infrastruktur.md) — ähnlicher Ansatz: semantische Verlinkung für Markdown-Vaults; Graphify geht weiter (Code + Docs + Bilder, interaktiv)
 
