@@ -12,3 +12,4 @@ Communities, Kurse, Forks, Links.
 - [Microsoft Agents League](microsoft-agents-league.md) — 2-Wochen AI Developer Challenge von Microsoft (Feb 2026), Starter Kits verfügbar
 - [Scrum Sage Zen Edition](scrum-gpt.md) — Custom GPT als Scrum-Coach mit Zen-Perspektive
 - [Links](links.md) — Lose Link-Sammlung (entire.io Developer Platform)
+- [Claude Managed Agents](claude-managed-agents.md) — Anthropic-verwaltete Agent-Infrastruktur: Sandboxing, Long-running Sessions, Multi-Agent; TODO: Onboarding abschließen
