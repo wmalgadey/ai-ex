@@ -7,6 +7,7 @@ Semantic Contracts, Spec-Driven Development, Bugfixing-Ansätze.
 - [Semantic Contracts](semantic-contracts.md) — Semantic Anchors zu neuen Begriffen komponieren statt LLM-Verhalten hoffen
 - [GitHub Spec Kit](spec-kit.md) — Spec-Driven Development: 7-Schritt-Workflow, executable Specs, CLI-Tool
 - [AI-gestützter Bugfixing-Workflow](ai-bugfixing-workflow.md) — Erst verstehen, nicht fixen — KI als Analyse-Kollege statt Code-Generator
+- [Feedback Flywheel](feedback-flywheel.md) — Team-Lernen systematisieren: 4 Signal-Typen, lebende Artefakte (AGENTS.md, Playbooks), 4 Kadenzen (Fowler/Thoughtworks)
 
 ## Konzept-Vertiefungen (concepts/)
 
