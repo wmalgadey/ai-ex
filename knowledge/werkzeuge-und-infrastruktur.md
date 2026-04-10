@@ -13,4 +13,5 @@ Sandboxing, lokale Tools, Obsidian-Erweiterungen.
 - [Resurrecting a 1992 MUD with Agentic AI](mud-resurrection-agentic.md) — Claude Code reverse-engineert 30 Jahre alten MUD aus Scripts + Doku, ohne Source Code; Crafting/Kampf/KI in einem Wochenende
 - [llm-wiki-kit](llm-wiki-kit.md) — Claude Code Plugin: Obsidian-Vault als selbst-pflegende Wiki (Karpathy-Pattern); init/compile/search/save/lint
 - [llm-memory.org](llm-memory-org.md) — Community-Vergleichsplattform: 19 Developer Tools, 4 Platforms, 20+ Dimensionen; ergänzt den eigenen Memory-Vergleich
+- [MemPalace](mempalace.md) — Lokale AI Memory mit Palace-Metapher; interessantes Konzept, aber Issue #27 deckt erhebliche Diskrepanz zwischen README-Behauptungen und Implementierung auf
 - [Caveman](caveman.md) — Token-Kompressions-Skill für Claude Code; 75% weniger Output-Token, 45% weniger Input-Token; 4 Intensitätsstufen
