@@ -4,6 +4,7 @@ Plugin-Framework und fertige Plugin-Implementierungen.
 
 ## Artikel
 
+- [Addy Osmani — Agent Skills](addy-osmani-agent-skills.md) — 20 production-grade Skills entlang des Dev-Lebenszyklus; Link + Einordnung statt Kopie; Addy Osmani / Google Chrome
 - [nwave.ai Skill Framework](readme.md) — Kontext: modulare, on-demand geladene Skills für Claude Code Agenten
 - [Romilly Claude Code Helpers](romilly-claude-code-helpers.md) — Hexagonal Architecture + Walking Skeleton als Claude Code Command
 - [Ralph Wiggum Plugin](ralph-wiggum/readme.md) — Claude Code Plugin für langläufige autonome Tasks mit Loop-Architektur
