@@ -12,3 +12,4 @@ Harness-Patterns, Agent-Koordination, Skill-Design, strukturelle Modelle.
 - [BMAD Method](bmad-method.md) — Open-Source Framework: 34+ Workflows, 12+ spezialisierte Agenten, vollständiger Dev-Lifecycle
 - [Panaversity: The AI Agent Factory](panaversity-agent-factory.md) — Spec-Driven Blueprint für "Digital FTEs", Buch + KI-Tutor + Plugin
 - [Alistair Cockburn — Hexagonal Architecture mit Claude](alistair-cockburn-hexagonal-claude.md) — Ports & Adapters + Walking Skeleton als Claude Code Command
+- [The Advisor Strategy](advisor-strategy.md) — Opus als Advisor, Sonnet/Haiku als Executor: Frontier-Intelligenz bei Executor-Kosten
