@@ -18,7 +18,7 @@ _Konzepte und Praxis rund um agentic software development_ — [Ordner-Übersich
 
 | MOC | Zuletzt geändert |
 |---|---|
-| [Patterns & Architekturen](./agentic-engineering/patterns-und-architekturen.md) | 2026-04-09 |
+| [Patterns & Architekturen](./agentic-engineering/patterns-und-architekturen.md) | 2026-04-10 |
 | [Claude Code & Werkzeuge](./agentic-engineering/claude-code-und-werkzeuge.md) | 2026-04-03 |
 | [Konzepte & Grundlagen](./agentic-engineering/konzepte.md) | 2026-04-09 |
 
