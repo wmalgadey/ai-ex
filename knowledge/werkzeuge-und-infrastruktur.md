@@ -11,6 +11,7 @@ Sandboxing, lokale Tools, Obsidian-Erweiterungen.
 - [llm-checker](llm-checker.md) — Tool zum Testen und Vergleichen von LLM-Outputs gegen definierte Erwartungen
 - [Rhizome — Semantische Backlinks für Obsidian](rhizome-obsidian-semantic-backlinks.md) — CLI für automatische `[[wikilinks]]` via Cosine Similarity, 100% lokal
 - [Resurrecting a 1992 MUD with Agentic AI](mud-resurrection-agentic.md) — Claude Code reverse-engineert 30 Jahre alten MUD aus Scripts + Doku, ohne Source Code; Crafting/Kampf/KI in einem Wochenende
+- [clauditor](clauditor.md) — Session-Optimizer: überwacht Token-Waste, rotiert Claude Code Sessions automatisch; 62% Quota-Ersparnis in realen Messungen
 - [llm-wiki-kit](llm-wiki-kit.md) — Claude Code Plugin: Obsidian-Vault als selbst-pflegende Wiki (Karpathy-Pattern); init/compile/search/save/lint
 - [llm-memory.org](llm-memory-org.md) — Community-Vergleichsplattform: 19 Developer Tools, 4 Platforms, 20+ Dimensionen; ergänzt den eigenen Memory-Vergleich
 - [MemPalace](mempalace.md) — Lokale AI Memory mit Palace-Metapher; interessantes Konzept, aber Issue #27 deckt erhebliche Diskrepanz zwischen README-Behauptungen und Implementierung auf
