@@ -77,6 +77,23 @@ Obsidian-kompatibel mit `[[wikilink]]`-Support. `--save`-Flag speichert Query-An
 
 Aktuell: Anthropic-only, optimiert für kleine Corpora (Dutzende Quellen). Roadmap: Multi-Provider, Semantic Search, MCP-Server.
 
+### llm-wiki (domleca) — Obsidian Plugin
+
+**→ [github.com/domleca/llm-wiki](https://github.com/domleca/llm-wiki)** — MIT, TypeScript, 476 Tests
+
+Obsidian-Plugin inspiriert von Karpathy. Verarbeitet Vault-Notizen durch 4 Phasen:
+
+1. **Extraction** — LLM extrahiert Entitäten, Konzepte, Beziehungen pro Notiz → konsolidiert in Knowledge-Base-Datei
+2. **Page generation** — Automatisch generierte Markdown-Seiten pro Entität, kompatibel mit Obsidian Bases
+3. **Retrieval** — Hybrid Search: Keyword + Semantic Similarity (Embeddings) + Vault-Struktur
+4. **Conversation** — Multi-Turn mit Quellenlinks (klickbar), streaming
+
+**Local-first:** Ollama (qwen2.5:7b + nomic-embed-text), optionale Cloud-Provider (OpenAI, Anthropic, Google). Inkrementelle Updates — nur geänderte Notizen re-extrahieren.
+
+Unterschied zu llm-wiki-compiler: kein CLI, direkt in Obsidian integriert. Kein Export nötig — Wiki entsteht innerhalb des Vaults (isolierter Ordner, kein Clutter).
+
+→ Wolfgang: zum Reinschauen vorgemerkt.
+
 ### Graphify — Visualisierungsschicht
 
 **→ [github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)** — MIT
@@ -129,6 +146,6 @@ Feedback Flywheel (Fowler/Garg)       ← sozial, organisational
 
 Ein Skill für das LLM-Wiki-Pattern ist für ein kommendes Update geplant.
 
-_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06. Graphify ergänzt 2026-04-07. llm-wiki-compiler ergänzt 2026-04-08._
+_Rekonstruiert aus dem Karpathy-Gist und X-Thread, 2026-04-06. Graphify ergänzt 2026-04-07. llm-wiki-compiler ergänzt 2026-04-08. llm-wiki (domleca) ergänzt 2026-04-11._
 
 #karpathy #llm-wiki #knowledge-management #rag #obsidian #memory #graphify #knowledge-graph #llm-wiki-compiler
