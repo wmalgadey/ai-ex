@@ -9,6 +9,7 @@ Communities, Kurse, Forks, Links.
 - [ClawClones — The OpenClaw Ecosystem](clawclones.md) — Tracker für OpenClaw-Forks mit Community Pulse, Stars, Besonderheiten; Stand März 2026
 - [Claw3D](claw3d.md) — 3D-Engine auf OpenClaw-Basis, 581 Stars
 - [Anthropic Courses](anthropic-courses.md) — Übersicht aller offiziellen Anthropic-Kurse auf skilljar.com
+- [NVIDIA DLI — Kostenlose KI-Kurse](nvidia-dli-kurse.md) — 9 kostenlose Self-Paced-Kurse, Fokus auf Infrastruktur und Hardware-Schicht statt Tool-Nutzung
 - [Microsoft Agents League](microsoft-agents-league.md) — 2-Wochen AI Developer Challenge von Microsoft (Feb 2026), Starter Kits verfügbar
 - [Scrum Sage Zen Edition](scrum-gpt.md) — Custom GPT als Scrum-Coach mit Zen-Perspektive
 - [Links](links.md) — Lose Link-Sammlung (entire.io Developer Platform)
