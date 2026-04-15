@@ -10,7 +10,7 @@ _Werkzeuge, Modelle, Recherche (externe Quellen)_ — [Ordner-Übersicht](./know
 | MOC | Zuletzt geändert |
 |---|---|
 | [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-04-03 |
-| [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-12 |
+| [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-15 |
 | [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-11 |
 
 ### ⚙️ Agentic Engineering
