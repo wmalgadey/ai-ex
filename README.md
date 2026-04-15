@@ -39,6 +39,13 @@ _Persönliche Erfahrungen, Entscheidungen, Setup-Dokumentation_ — [Ordner-Übe
 | [Dual-Bot Setup: Zaphod (OpenClaw) + Marvin (NanoClaw)](./journal/dual-bot-setup-april-2026.md) | 2026-04-06 |
 | [KI als Betriebssystem — Post-Vorbereitung](./journal/ki-betriebssystem-post-vorbereitung.md) | 2026-04-09 |
 
+### 📖 Scrum at Machine Speed
+_First Principles in Scrum: OpenClaw — Buchprojekt_ — [Ordner-Übersicht](./scrum-at-machine-speed/README.md)
+
+| Kapitel | Zuletzt geändert |
+|---|---|
+| [Chapter 4: Why AIs Are Waterfall Developers](./scrum-at-machine-speed/chapter-04-waterfall-developers.md) | 2026-04-15 |
+
 ## Aktuelles Setup (Stand: April 2026)
 
 Drei KI-Instanzen laufen auf derselben Maschine mit unterschiedlichen Security-Profilen. Die VM ist per Zone based Firewall vom Netzwerk getrennt und hat auch nur kontrollierten Zugang ins Netzwerk (tailscale) und ins Internet (Cloud Gateway Ultra)
