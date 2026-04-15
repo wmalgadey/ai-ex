@@ -9,7 +9,7 @@ _Nils Weiser · wuesteon.github.io · 14. April 2026_
 
 Ein GitHub-Repo, das nichts enthält außer einer einzigen CLAUDE.md-Datei, steht bei über 25.000 Sternen. Kein Framework, keine CLI, kein Python-Paket. Nur Text.
 
-GitHub: [andrej-karpathy-skills](https://github.com/andrej-karpathy-skills)
+GitHub: [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
 
 ---
 
