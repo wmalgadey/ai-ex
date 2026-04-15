@@ -44,6 +44,7 @@ _First Principles in Scrum: OpenClaw — Buchprojekt_ — [Ordner-Übersicht](./
 
 | Kapitel | Zuletzt geändert |
 |---|---|
+| [White Paper: The Autonomy Illusion](./scrum-at-machine-speed/whitepaper-autonomy-illusion.md) | 2026-04-15 |
 | [Chapter 4: Why AIs Are Waterfall Developers](./scrum-at-machine-speed/chapter-04-waterfall-developers.md) | 2026-04-15 |
 | [Chapter 16: You Are What You Remember](./scrum-at-machine-speed/chapter-16-memory-identity.md) | 2026-04-15 |
 
