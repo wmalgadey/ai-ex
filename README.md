@@ -38,6 +38,7 @@ _Persönliche Erfahrungen, Entscheidungen, Setup-Dokumentation_ — [Ordner-Übe
 | [Von OpenClaw zu NanoClaw](./journal/openclaw-to-nanoclaw-journey.md) | 2026-03-22 |
 | [Dual-Bot Setup: Zaphod (OpenClaw) + Marvin (NanoClaw)](./journal/dual-bot-setup-april-2026.md) | 2026-04-06 |
 | [KI als Betriebssystem — Post-Vorbereitung](./journal/ki-betriebssystem-post-vorbereitung.md) | 2026-04-09 |
+| [Welchem KI-Agenten-Framework vertraue ich — und warum](./journal/nanoclaw-v2-vertrauen-vs-verstehen.md) | 2026-04-29 |
 
 ### 📖 Scrum at Machine Speed
 _First Principles in Scrum: OpenClaw — Buchprojekt_ — [Ordner-Übersicht](./scrum-at-machine-speed/README.md)
