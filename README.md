@@ -11,7 +11,7 @@ _Werkzeuge, Modelle, Recherche (externe Quellen)_ — [Ordner-Übersicht](./know
 |---|---|
 | [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-04-03 |
 | [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-24 |
-| [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-11 |
+| [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-04-28 |
 
 ### ⚙️ Agentic Engineering
 _Konzepte und Praxis rund um agentic software development_ — [Ordner-Übersicht](./agentic-engineering/README.md)
@@ -19,8 +19,8 @@ _Konzepte und Praxis rund um agentic software development_ — [Ordner-Übersich
 | MOC | Zuletzt geändert |
 |---|---|
 | [Patterns & Architekturen](./agentic-engineering/patterns-und-architekturen.md) | 2026-04-10 |
-| [Claude Code & Werkzeuge](./agentic-engineering/claude-code-und-werkzeuge.md) | 2026-04-15 |
-| [Konzepte & Grundlagen](./agentic-engineering/konzepte.md) | 2026-04-22 |
+| [Claude Code & Werkzeuge](./agentic-engineering/claude-code-und-werkzeuge.md) | 2026-04-28 |
+| [Konzepte & Grundlagen](./agentic-engineering/konzepte.md) | 2026-04-28 |
 
 ### 🛠️ Skills & Agents
 _Konkrete Skills und Agent-Implementierungen_ — [Ordner-Übersicht](./skills-and-agent/README.md)

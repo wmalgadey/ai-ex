@@ -10,6 +10,9 @@ Semantic Contracts, Spec-Driven Development, Bugfixing-Ansätze.
 - [AI-gestützter Bugfixing-Workflow](ai-bugfixing-workflow.md) — Erst verstehen, nicht fixen — KI als Analyse-Kollege statt Code-Generator
 - [Feedback Flywheel](feedback-flywheel.md) — Team-Lernen systematisieren: 4 Signal-Typen, lebende Artefakte (AGENTS.md, Playbooks), 4 Kadenzen (Fowler/Thoughtworks)
 - [Cockburn: Spielt Code-Qualität noch eine Rolle?](cockburn-codequalitaet-llm.md) — Provokation + Token-Kostenvergleich DDD vs. kompakter Code; Kernthese: Entanglement ist teuer, nicht Größe
+- [Martin Fowler — SPDD](spdd-martin-fowler.md) — Prompts als First-Class-Artefakte; REASONS Canvas (7-gliedrig); "When reality diverges, fix the prompt first"
+- [Ralf D. Müller — Semantic Anchors & SPDD](ralf-mueller-semantic-anchors-spdd.md) — LinkedIn-Post: Semantic Anchors + Spec-Driven Development als komplementärer Ansatz zu SPDD
+- [Codereading Technique](codereading-technique.md) — Nicholas Gebo: strukturiertes Code-Lesen als eigenständige Produktivitätstechnik
 
 ## Konzept-Vertiefungen (concepts/)
 
