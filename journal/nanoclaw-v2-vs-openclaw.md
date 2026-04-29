@@ -44,4 +44,20 @@ Das ist der Kern. Nicht Features, nicht Performance.
 
 **Beispiel:** In NanoClaw v2 bekommt jeder Agent ein eigenes Container-Image mit einem hash-basierten Slug. Das klingt nach Komplexität, ist aber das Gegenteil: wer wie ich ein eigenes Containerfile führt, merkt dass v2 genau das zum Standard macht — nachvollziehbar, reproduzierbar, ohne implizite Abhängigkeit auf "latest".
 
+---
+
+- beim ersten run und den ersten selbst-änderungen, war das problem wohl ein message-loop. der agent sprach immer zu sich selbst und ich habe keine ausgabe gesehen.
+
+- bun anstatt node.js im container - kann ich nicht bewerten, bun scheint weniger abhängigkeiten zu haben, da viele funktionen inkludiert sind, und es basiert auf webkit anstatt auf v9
+- setup ist kein skill mehr, sondern ein script - macht sinn, ist damit deterministisch und verbraucht keine token - claude ist dann nur noch partner im setup bei problemen!
+- beim container build wird jetzt nicht immer latest gewählt, sondern ein image je agent mit einem "SLUG" basierent auf einem hash des verzeichnisses - das hatte mich ja auch direkt irritiert. jetzt ist es noch etwas komplexer, da je agent ein eigenes image, das deutlich komplexer aufgebaut ist (eigenes containerfile, wie bei mir!)
+  - außerdem gibt es ein base-image, darauf aufbauend wird dann die änderung über den self-customize skill resp. der container.json gebaut, quasi nur die änderungen, die relevant sind für den agenten (s. src/container-runner.ts)
+- pakete / Binaries können jetzt im build über den self-customize skill hinzugefügt werden (apt/npm und mcp server!)
+  - hat für tailscale funktioniert, aber leider kann ich es nicht nutzen, wegen fehlendem auth-key
+- modules erweitern den nanoclaw service!
+- service, container und image bekommen einen hash vom checkout verzeichnis, damit kann man mehrere instanzen nebeneinander installieren  
+
+- Supply Chain Security (pnpm). 
+  This project uses pnpm with `minimumReleaseAge: 4320` (3 days) in `pnpm-workspace.yaml`. New package versions must exist on the npm registry for 3 days before pnpm will resolve them.
+
 #nanoclaw #openclaw #agentic-ai #self-hosting #container
