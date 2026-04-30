@@ -12,3 +12,4 @@ Best Practices, Konfiguration, Remote Control, Secrets, Tooling-Vergleiche.
 - [LSP + LLM: Code-Verständnis für AI-Agents](lsp-llm-code-understanding.md) — LSP-MCP-Bridges, Keel, GitLab Knowledge Graph als semantische Schichten
 - [Karpathy CLAUDE.md — 25k Stars (Wuesteon)](karpathy-claude-md-wuesteon.md) — Analyse des andrej-karpathy-skills Repos; 4 Prinzipien gegen LLM-Fehler; CLAUDE.md vs. Skills; Technik: GitHub Pages + Tailwind CDN
 - [Andy Toizer — 41,6h Claude Code in 30 Tagen](andy-toizer-claude-code-416h.md) — Erfahrungsbericht: "The part that 10x'd my workflows didn't come from playbooks"
+- [Impeccable — Design-Skill-System für AI-Tools](impeccable.md) — 7 Referenzdateien + 23 Commands gegen generisches KI-Frontend-Design; CLI `npx impeccable detect` für Anti-Pattern-Scan
