@@ -19,3 +19,4 @@ Sandboxing, lokale Tools, Obsidian-Erweiterungen.
 - [Caveman](caveman.md) — Token-Kompressions-Skill für Claude Code; 75% weniger Output-Token, 45% weniger Input-Token; 4 Intensitätsstufen
 - [CodeBurn](codeburn.md) — Token-Kosten-Observability: TUI-Dashboard, One-Shot Success Rate, Yield-Tracking; liest Session-Daten direkt vom Disk
 - [OpenClaw-Alternativen (DataCamp)](openclaw-alternativen-datacamp.md) — Kategorien: Coding Agents, Workflow-Automation, Enterprise/Managed, Local Runners; Evaluationsrahmen Autonomy vs. Security; NanoClaw als "Nanobot" eingeordnet
+- [/graphify — Knowledge Graph für Claude Code](graphify-claude-code-skill.md) — 71x Token-Ersparnis, Leiden Community Detection; unerwartete Nutzung für Obsidian Vaults, SQL-Schemas, Meeting-Transkripte
