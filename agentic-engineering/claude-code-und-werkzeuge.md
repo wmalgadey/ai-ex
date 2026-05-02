@@ -13,3 +13,4 @@ Best Practices, Konfiguration, Remote Control, Secrets, Tooling-Vergleiche.
 - [Karpathy CLAUDE.md — 25k Stars (Wuesteon)](karpathy-claude-md-wuesteon.md) — Analyse des andrej-karpathy-skills Repos; 4 Prinzipien gegen LLM-Fehler; CLAUDE.md vs. Skills; Technik: GitHub Pages + Tailwind CDN
 - [Andy Toizer — 41,6h Claude Code in 30 Tagen](andy-toizer-claude-code-416h.md) — Erfahrungsbericht: "The part that 10x'd my workflows didn't come from playbooks"
 - [Impeccable — Design-Skill-System für AI-Tools](impeccable.md) — 7 Referenzdateien + 23 Commands gegen generisches KI-Frontend-Design; CLI `npx impeccable detect` für Anti-Pattern-Scan
+- [Claude Code Token-Verbrauch halbieren](chris-miller-claude-code-token-50.md) — Subagent-Hierarchie (Haiku/Sonnet/Opus), WebFetch statt Screenshots, Auto-Compact bei 80%; ~2 Min Setup
