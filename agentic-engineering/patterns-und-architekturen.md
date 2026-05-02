@@ -14,3 +14,4 @@ Harness-Patterns, Agent-Koordination, Skill-Design, strukturelle Modelle.
 - [Alistair Cockburn — Hexagonal Architecture mit Claude](alistair-cockburn-hexagonal-claude.md) — Ports & Adapters + Walking Skeleton als Claude Code Command
 - [Claude Prompting Best Practices](claude-prompting-best-practices.md) — Offizielle Anthropic-Referenz (Claude 4.x): Long Context, Parallel Tools, Adaptive Thinking, Reversibilität, Anti-Overengineering
 - [The Advisor Strategy](advisor-strategy.md) — Opus als Advisor, Sonnet/Haiku als Executor: Frontier-Intelligenz bei Executor-Kosten
+- [Fowler Fragments 2026-04-29](fowler-fragments-2026-04-29.md) — Agentic Engineering vs. Vibe Coding, Harness als Sensor, Function Length + Naming, Software Brain, Fowler über KI-Schreiben
