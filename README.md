@@ -9,7 +9,7 @@ _Werkzeuge, Modelle, Recherche (externe Quellen)_ — [Ordner-Übersicht](./know
 
 | MOC | Zuletzt geändert |
 |---|---|
-| [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-04-03 |
+| [Modelle & Forschung](./knowledge/modelle-und-forschung.md) | 2026-05-03 |
 | [Plattformen & Ressourcen](./knowledge/plattformen-und-ressourcen.md) | 2026-04-24 |
 | [Werkzeuge & Infrastruktur](./knowledge/werkzeuge-und-infrastruktur.md) | 2026-05-02 |
 
