@@ -13,6 +13,7 @@ Semantic Contracts, Spec-Driven Development, Bugfixing-Ansätze.
 - [Martin Fowler — SPDD](spdd-martin-fowler.md) — Prompts als First-Class-Artefakte; REASONS Canvas (7-gliedrig); "When reality diverges, fix the prompt first"
 - [Ralf D. Müller — Semantic Anchors & SPDD](ralf-mueller-semantic-anchors-spdd.md) — LinkedIn-Post: Semantic Anchors + Spec-Driven Development als komplementärer Ansatz zu SPDD
 - [Codereading Technique](codereading-technique.md) — Nicholas Gebo: strukturiertes Code-Lesen als eigenständige Produktivitätstechnik
+- [Stimme als Text-Datei (Ruben Hassid)](ruben-hassid-youre-just-a-text-file.md) — Voice Profile: 100 Interview-Fragen → 20k Wörter → 2–5k Token; Kompressions-Test; Phrase Bank, Hard Refusals
 
 ## Konzept-Vertiefungen (concepts/)
 
